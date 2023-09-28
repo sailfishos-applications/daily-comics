@@ -34,18 +34,16 @@ Read your favourite comic strips every day
 
 %install
 %qmake5_install
-
+# I wonder what removing all `.directory` files is good for:
 find %{buildroot} -name .directory -type f -delete
+# Obviously the many `cover_big.jpg` files are not used at all, hence deleted here:
 find %{buildroot}%{_datadir}/%{name}/plugins/ -name cover_big.jpg -type f -delete
 
-desktop-file-install --delete-original       \
-  --dir %{buildroot}%{_datadir}/applications             \
+desktop-file-install --delete-original --dir %{buildroot}%{_datadir}/applications \
    %{buildroot}%{_datadir}/applications/*.desktop
 
 %files
 %defattr(-,root,root,-)
-%defattr(644,root,root,-)
-%attr(755,-,-) %{_bindir}
 %{_bindir}/%{name}
 %{_datadir}/%{name}
 %{_datadir}/applications/%{name}.desktop
