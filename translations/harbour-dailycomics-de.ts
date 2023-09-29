@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="de">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="de">
 <context>
     <name>AboutPage</name>
     <message>
@@ -26,7 +24,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="201"/>
         <source>The source code is available at
-                       &lt;br/&gt;&lt;a href=&apos;%1&apos;&gt;%2&lt;/a&gt;
+                       &lt;br/&gt;&lt;a href='%1'&gt;%2&lt;/a&gt;
                        &lt;br/&gt;You can contact me for any remarks,
                        &lt;br/&gt;bugs, feature requests, ideas,...
                        &lt;br/&gt;
@@ -155,10 +153,7 @@
     <message numerus="yes">
         <location filename="../qml/cover/DefaultCover.qml" line="44"/>
         <source>%n new comic(s)</source>
-        <translation>
-            <numerusform>%n neues Comic</numerusform>
-            <numerusform>%n neue Comics</numerusform>
-        </translation>
+        <translation><numerusform>%n neues Comic</numerusform><numerusform>%n neue Comics</numerusform></translation>
     </message>
 </context>
 <context>
@@ -192,47 +187,42 @@ wenn das Problem weiter besteht.</translation>
 <context>
     <name>FavoritesPage</name>
     <message>
-        <location filename="../qml/pages/FavoritesPage.qml" line="69"/>
-        <source>Settings</source>
-        <translation>Einstellungen</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/FavoritesPage.qml" line="73"/>
-        <source>Report problems with comics</source>
-        <translation>Probleme mit den Comics melden</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/FavoritesPage.qml" line="87"/>
-        <source>Read all new comics</source>
-        <translation>Alle neuen Comics lesen</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/FavoritesPage.qml" line="87"/>
-        <source>No new comic</source>
-        <translation>Kein neues Comic</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/FavoritesPage.qml" line="98"/>
+        <location filename="../qml/pages/FavoritesPage.qml" line="70"/>
         <source>About</source>
         <translation>Über</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FavoritesPage.qml" line="105"/>
+        <location filename="../qml/pages/FavoritesPage.qml" line="74"/>
+        <source>Settings</source>
+        <translation>Einstellungen</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/FavoritesPage.qml" line="78"/>
+        <source>Read all new comics</source>
+        <translation>Alle neuen Comics lesen</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/FavoritesPage.qml" line="78"/>
+        <source>No new comic</source>
+        <translation>Kein neues Comic</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/FavoritesPage.qml" line="87"/>
         <source>No comic selected</source>
         <translation>Kein Comic ausgewählt</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FavoritesPage.qml" line="106"/>
+        <location filename="../qml/pages/FavoritesPage.qml" line="88"/>
         <source>Choose your favorite comics in the settings page</source>
         <translation>Wählen Sie Ihre Lieblingscomics auf der Einstellungsseite</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FavoritesPage.qml" line="126"/>
+        <location filename="../qml/pages/FavoritesPage.qml" line="108"/>
         <source>Remove from favorites</source>
         <translation>Aus den Favoriten entfernen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FavoritesPage.qml" line="146"/>
+        <location filename="../qml/pages/FavoritesPage.qml" line="128"/>
         <source>Fetching comic strips</source>
         <translation>Comics werden geladen</translation>
     </message>
@@ -288,18 +278,12 @@ wenn das Problem weiter besteht.</translation>
     <message numerus="yes">
         <location filename="../qml/utils/ProgressInfoBar.qml" line="72"/>
         <source>%n New</source>
-        <translation>
-            <numerusform>%n neu</numerusform>
-            <numerusform>%n neue</numerusform>
-        </translation>
+        <translation><numerusform>%n neu</numerusform><numerusform>%n neue</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/utils/ProgressInfoBar.qml" line="99"/>
         <source>%n Error(s)</source>
-        <translation>
-            <numerusform>%n Fehler</numerusform>
-            <numerusform>%n Fehler</numerusform>
-        </translation>
+        <translation><numerusform>%n Fehler</numerusform><numerusform>%n Fehler</numerusform></translation>
     </message>
 </context>
 <context>
