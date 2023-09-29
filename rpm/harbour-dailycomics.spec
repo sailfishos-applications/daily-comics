@@ -1,5 +1,6 @@
 Name:       harbour-dailycomics
 
+# These macros should already be defined in the RPMbuild environment, see: rpm --showrc
 %{!?qtc_qmake:%define qtc_qmake %qmake}
 %{!?qtc_qmake5:%define qtc_qmake5 %qmake5}
 %{!?qtc_make:%define qtc_make make}
@@ -7,12 +8,35 @@ Name:       harbour-dailycomics
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 
 Summary:    Daily comic strips reader
-Version:    1.9.2
-Release:    1
-Group:      Utilities
+# The <version> tag must adhere to semantic versioning: Among multiple other
+# reasons due to its use for `qmake5` in line 107.  See https://semver.org/
+Version:    1.9.95
+# The <release> tag comprisees one of {alpha,beta,rc,release} postfixed with a
+# natural number greater or equal to 1 (e.g., "beta3") and may additionally be
+# postfixed with a plus character ("+"), the name of the packager and a release
+# number chosen by her (e.g., "rc2+jane4").  `{alpha|beta|rc|release}`
+# indicates the expected status of the software.  No other identifiers shall be
+# used for any published version, but for the purpose of testing infrastructure
+# other nonsensual identifiers as `adud` may be used, which do *not* trigger a
+# build at GitHub and OBS, when configured accordingly; mind the sorting
+# (`adud` < `alpha`).  For details and reasons, see
+# https://github.com/storeman-developers/harbour-storeman/wiki/Git-tag-format
+Release:    beta1
+# The Group tag should comprise one of the groups listed here:
+# https://github.com/mer-tools/spectacle/blob/master/data/GROUPS
+Group:      Amusements/Graphics
+# Altering the `Vendor:` field breaks the update path on SailfishOS, see
+# https://en.opensuse.org/SDB:Vendor_change_update#Disabling_Vendor_stickiness
+#Vendor:     meego
 License:    MIT
 URL:        https://github.com/sailfishos-applications/daily-comics
-Source0:    %{url}/archive/%{version}-%{release}/%{name}-%{version}.tar.gz
+# The "Source0:" line below requires that the value of %%{name} is also the
+# project name at GitHub and the value of `%%{release}/%%{version}` is also
+# the name of a correspondingly set Git tag.  For details and reasons, see
+# https://github.com/storeman-developers/harbour-storeman/wiki/Git-tag-format
+Source0:    %{url}/archive/%{release}/%{version}/%{name}-%{version}.tar.gz
+# Note that the rpmlintrc file MUST be named exactly so according to
+# https://en.opensuse.org/openSUSE:Packaging_checks#Building_Packages_in_spite_of_errors
 Source99:   %{name}.rpmlintrc
 Requires:   sailfishsilica-qt5 >= 0.10.9
 Requires:   qt5-plugin-imageformat-gif
@@ -25,6 +49,11 @@ BuildRequires:  desktop-file-utils
 %description
 Read your favourite comic strips every day
 
+# Define (S)RPM compression sensibly, taking compatibility into account, see
+# https://github.com/sailfishos-patches/patchmanager/pull/417#issuecomment-1429068156
+%define _source_payload w6.gzdio
+%define _binary_payload w2.xzdio
+
 %prep
 %setup -q
 
@@ -36,11 +65,10 @@ Read your favourite comic strips every day
 %qmake5_install
 # I wonder what removing all `.directory` files is good for:
 find %{buildroot} -name .directory -type f -delete
-# Obviously the many `cover_big.jpg` files are not used at all, hence deleted here:
+# Apparently the many `cover_big.jpg` files are not used, hence deleted here:
 find %{buildroot}%{_datadir}/%{name}/plugins/ -name cover_big.jpg -type f -delete
-
 desktop-file-install --delete-original --dir %{buildroot}%{_datadir}/applications \
-   %{buildroot}%{_datadir}/applications/*.desktop
+   %{buildroot}%{_datadir}/applications/%{name}.desktop
 
 %files
 %defattr(-,root,root,-)
