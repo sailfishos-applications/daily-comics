@@ -192,47 +192,42 @@ if the problem persists.</translation>
 <context>
     <name>FavoritesPage</name>
     <message>
-        <location filename="../qml/pages/FavoritesPage.qml" line="69"/>
-        <source>Settings</source>
-        <translation>Settings</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/FavoritesPage.qml" line="73"/>
-        <source>Report problems with comics</source>
-        <translation>Report problems with comics</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/FavoritesPage.qml" line="87"/>
-        <source>Read all new comics</source>
-        <translation>Read all new comics</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/FavoritesPage.qml" line="87"/>
-        <source>No new comic</source>
-        <translation>No new comic</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/FavoritesPage.qml" line="98"/>
+        <location filename="../qml/pages/FavoritesPage.qml" line="70"/>
         <source>About</source>
         <translation>About</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FavoritesPage.qml" line="105"/>
+        <location filename="../qml/pages/FavoritesPage.qml" line="74"/>
+        <source>Settings</source>
+        <translation>Settings</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/FavoritesPage.qml" line="78"/>
+        <source>Read all new comics</source>
+        <translation>Read all new comics</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/FavoritesPage.qml" line="78"/>
+        <source>No new comic</source>
+        <translation>No new comic</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/FavoritesPage.qml" line="87"/>
         <source>No comic selected</source>
         <translation>No comic selected</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FavoritesPage.qml" line="106"/>
+        <location filename="../qml/pages/FavoritesPage.qml" line="88"/>
         <source>Choose your favorite comics in the settings page</source>
         <translation>Choose your favorite comics in the settings page</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FavoritesPage.qml" line="126"/>
+        <location filename="../qml/pages/FavoritesPage.qml" line="108"/>
         <source>Remove from favorites</source>
         <translation>Remove from favorites</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FavoritesPage.qml" line="146"/>
+        <location filename="../qml/pages/FavoritesPage.qml" line="128"/>
         <source>Fetching comic strips</source>
         <translation>Fetching comic strips</translation>
     </message>
