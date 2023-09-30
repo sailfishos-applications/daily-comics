@@ -4,19 +4,20 @@ about: Questions about this project
 title: "[Help] "
 labels: 'question'
 assignees: ''
-
 ---
 
-**SailfishOS VERSION** (Settings → About product → Build): 
-<br />**HARDWARE** (Settings → About product → Manufacturer & Product name): 
-<br />**Daily Comics VERSION** (Daily Comics → [Top pulley] About): 
+**SailfishOS VERSION** (Settings → About product → Build): ***`<a.b.c.p>`***
+<br />**HARDWARE** (Settings → About product → Manufacturer & Product name): ***\<Manufacturer\>, \<Product name\>***
+<br />**Daily Comics VERSION** (Daily Comics → [Top pulley] About): ***`<x.y.z>`***
 <br />
 
 #### QUESTION
-
+*\<A concisely phrased question.  Please do ask only a single question in each help request!\>*
 
 #### STEPS TO REPRODUCE
-
+1. *\<foo\>*
+2. *\<bar\>*
+3. *\<foobar\>*
 
 #### ADDITIONAL INFORMATION
 
