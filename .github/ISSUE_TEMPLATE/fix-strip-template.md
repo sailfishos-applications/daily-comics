@@ -26,9 +26,9 @@ See **[this document] ()** for details on these requirements, the image resoluti
 
 #### NECESSARY DATA
 These are technically necessary to implement a new strip source in Daily Comics.
-- Document, whose source code enables extracting a URL to a single image of the newest, published strip by a RegEx (see next bullet point).  This page can be identical to the home-page of the strip, which m,ust be provided in the prior section "REQUIRED DATA".<br />
+- Document, whose source code allows for extracting a URL to a single image of the newest, published strip by a RegEx (see next bullet point).  This page can be identical to the home-page of the strip, which must be provided in the prior section "REQUIRED DATA".<br />
   ***\<URL\>***
-- An idea for a RegEx (regular expression) to do so<br />
+- An idea for a RegEx (regular expression) to do so, containing a sub-expression which exactly matches the image URL<br />
   ***`<RegEx>`***
 - If such a single RegEx is not feasible, please design a JavaScript code snippet, which extracts the URL to the image of the current comic strip from the document retrieved via the URL provided in the first bullet point of this section "NECESSARY DATA".
   ```
