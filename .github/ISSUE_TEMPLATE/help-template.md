@@ -9,7 +9,7 @@ assignees: ''
 
 **SailfishOS VERSION** (Settings → About product → Build): 
 <br />**HARDWARE** (Settings → About product → Manufacturer & Product name): 
-<br />**FileCase VERSION** (FileCase → [Top pulley] Settings → [Top pulley] About): 
+<br />**Daily Comics VERSION** (Daily Comics → [Top pulley] About): 
 <br />
 
 #### QUESTION
