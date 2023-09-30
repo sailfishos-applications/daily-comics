@@ -17,17 +17,16 @@ assignees: ''
   ***\<real name(s), if available, and pseudonym(s) / nickname(s)\>***
 - Home webpage<br />
   ***\<URL to official webpage\>***
-- Existing strip, which is very typical for this comic strip
-  (shouid include the main character(s) of this strip)<br />
+- Existing strip, which is very typical for this comic strip; *should* include the main character(s) and / or scenery of this strip<br />
   ***\<URL or image file\>***
 - Easily recognisable logo, icon or picture for the cover page of this
-  strip (might include the main character(s) of this strip)<br />
+  strip; *might* include either a scetch of the author(s), or the main character(s) and / or scenery of this strip<br />
   ***\<URL or image file\>***
 
 See **[this document] ()** for details on these requirements, the image resolutions stated there are the minimal ones: Images can be easily downscaled, but up-scaling always involves a significant loss of visual quality.
 
 #### NECESSARY DATA
-These are technically necessary to implement a new strip source in Daily Comic.
+These are technically necessary to implement a new strip source in Daily Comics.
 - Webpage, whose HTML source code enables extracting an URL to a single image of the newest, published strip.  This page can be identical to the home-page of the strip, which is provided in the prior paragraph.<br />
   ***\<URL\>***
 - An idea for a RegEx (regular expression) to do so<br />
