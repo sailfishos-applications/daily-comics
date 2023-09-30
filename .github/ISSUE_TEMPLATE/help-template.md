@@ -20,5 +20,5 @@ assignees: ''
 
 #### ADDITIONAL INFORMATION
 
-*\<Please consider thoroughly which other pieces of information may be relevant.\>*
+*\<Please consider which other pieces of information may be relevant: Attach relevant data, provide screenshots etc.\>*
 
