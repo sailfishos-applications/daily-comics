@@ -3,7 +3,6 @@ name: New strip
 about: Suggest a new comic strip for Daily Comics
 title: "[New strip] "
 labels: 'new strip'
-assignees: ''
 ---
 
 **Daily Comics VERSION** (Daily Comics → [Top pulley] About): ***`<x.y.z>`***
@@ -38,6 +37,5 @@ These are technically necessary to implement a new strip source in Daily Comics.
 Also providing this necessary data lowers the time and effort it takes to implement a new strip significantly.  Or provide a pull request (PR) for this new comic strip, after having read **[this guidance] ()**.
 
 #### ADDITIONAL INFORMATION
-
 *\<Please consider thoroughly which other pieces of information may be relevant.\>*
 
