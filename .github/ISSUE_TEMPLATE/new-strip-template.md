@@ -30,5 +30,6 @@ These are technically necessary to implement a new strip source in Daily Comic.
 Providing this data significantly lowers the time and effort it takes to implemnent a new strip.  Or provide a pull request (PR) for this new comic strip, after having read **[this guidance] ()**.
 
 #### ADDITIONAL INFORMATION
-*\<Please consider which other pieces of information may be relevant.\>*
+
+*\<Please consider thoroughly which other pieces of information may be relevant.\>*
 
