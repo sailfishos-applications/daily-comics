@@ -4,7 +4,6 @@ about: Suggest a new comic strip for Daily Comics
 title: "[New strip] "
 labels: 'new strip'
 assignees: ''
-
 ---
 
 **Daily Comics VERSION** (Daily Comics → [Top pulley] About): ***`<x.y.z>`***
