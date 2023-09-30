@@ -3,7 +3,6 @@ name: Help form
 about: Questions about this project
 title: "[Help] "
 labels: 'question'
-assignees: ''
 ---
 
 **SailfishOS VERSION** (Settings → About product → Build): ***`<a.b.c.p>`***
@@ -20,6 +19,5 @@ assignees: ''
 3. *\<foobar\>*
 
 #### ADDITIONAL INFORMATION
-
 *\<Please consider which other pieces of information may be relevant: Attach relevant data, provide screenshots etc.\>*
 
