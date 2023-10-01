@@ -24,21 +24,21 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="201"/>
         <source>The source code is available at
-                       &lt;br/&gt;&lt;a href='%1'&gt;%2&lt;/a&gt;
-                       &lt;br/&gt;You can contact me for any remarks,
-                       &lt;br/&gt;bugs, feature requests, ideas,...
-                       &lt;br/&gt;
-                       &lt;br/&gt;Below are few resources to find new comics.
-                       &lt;br/&gt;Let me know as well which additional comics
-                       &lt;br/&gt;you would like to be included in the app.</source>
+                &lt;a href=&quot;%1&quot;&gt;%2&lt;/a&gt;&lt;br /&gt;
+                You can contact me for any remarks,
+                bugs, feature requests, ideas,...&lt;br /&gt;
+                &lt;br /&gt;
+                Below are few resources to find new comics.&lt;br /&gt;
+                Let me know as well which additional comics
+                you would like to be included in the app.</source>
         <translation>Der Quellcode ist hier verfügbar:
-                       &lt;br/&gt;&lt;a href=&apos;%1&apos;&gt;%2&lt;/a&gt;
-                       &lt;br/&gt;Sie können mich bei Fragen, Fehlern
-                       &lt;br/&gt;Feature-Requests, Ideen usw. gerne kontaktieren.
-                       &lt;br/&gt;
-                       &lt;br/&gt;Unten finden Sie einige Quellen für neue Comics.
-                       &lt;br/&gt;Lassen Sie mich wissen, wenn Sie sich neue Comics
-                       &lt;br/&gt;in der App wünschen.</translation>
+                       &lt;a href=&quot;%1&quot;&gt;%2&lt;/a&gt;&lt;br /&gt;
+                       Sie können mich bei Fragen, Fehlern
+                       Feature-Requests, Ideen usw. gerne kontaktieren.&lt;br /&gt;
+                       &lt;br /&gt;
+                       Unten finden Sie einige Quellen für neue Comics.&lt;br /&gt;
+                       Lassen Sie mich wissen, wenn Sie sich neue Comics
+                       in der App wünschen.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="237"/>
