@@ -49,6 +49,35 @@ BuildRequires:  desktop-file-utils
 %description
 Read your favourite comic strips every day
 
+%if 0%{?_chum}
+Title: Daily Comics
+Type: desktop-application
+Categories:
+ - Graphics
+ - Network
+ - 2DGraphics
+ - Amusement
+ - FileTransfer
+ - Qt
+ - Viewer
+DeveloperName: Damien Tardy-Panis (tardypad), Oleg Linkin (maledictus), olf (Olf0)
+Custom:
+  Repo: %{url}
+PackageIcon: %{url}/raw/master/resources/logo.svg
+Screenshots:
+ - %{url}/raw/master/info/screenshots/favorites.png
+ - %{url}/raw/master/info/screenshots/comic_bar.png
+ - %{url}/raw/master/info/screenshots/comic_info.png
+ - %{url}/raw/master/info/screenshots/image_zoom.png
+ - %{url}/raw/master/info/screenshots/settings.png
+ - %{url}/raw/master/info/screenshots/cover.png
+Links:
+  Homepage: https://openrepos.net/content/olf/daily-comics
+  Help: %{url}/issues
+  Bugtracker: %{url}/issues
+  Donation: https://openrepos.net/donate
+%endif
+
 # Define (S)RPM compression sensibly, taking compatibility into account, see
 # https://github.com/sailfishos-patches/patchmanager/pull/417#issuecomment-1429068156
 %define _source_payload w6.gzdio
