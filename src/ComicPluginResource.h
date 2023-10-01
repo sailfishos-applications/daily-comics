@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2016 Damien Tardy-Panis
+ * Copyright (c) 2016 Damien Tardy-Panis <damien@tardypad.me>
  *
  * This file is subject to the terms and conditions defined in
  * file `LICENSE.txt`, which is part of this source code package.

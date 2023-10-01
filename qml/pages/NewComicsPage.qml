@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2015 Damien Tardy-Panis
+ * Copyright (c) 2015 Damien Tardy-Panis <damien@tardypad.me>
  * Copyright (c) 2018-2019 Oleg Linkin <maledictusdemagog@gmail.com>
  *
  * This file is subject to the terms and conditions defined in
