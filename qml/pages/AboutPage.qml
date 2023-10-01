@@ -202,13 +202,13 @@ Page {
                 id: codeLabel
                 width: parent.width - 2*Theme.paddingLarge
                 text: qsTr("The source code is available at
-                       <br/><a href='%1'>%2</a>
-                       <br/>You can contact me for any remarks,
-                       <br/>bugs, feature requests, ideas,...
-                       <br/>
-                       <br/>Below are few resources to find new comics.
-                       <br/>Let me know as well which additional comics
-                       <br/>you would like to be included in the app.").arg(constants.repoGithub).arg(constants.repoGithub)
+                            <a href=\"%1\">%2</a><br />
+                            You can contact me for any remarks,
+                            bugs, feature requests, ideas,...<br />
+                            <br />
+                            Below are few resources to find new comics.<br />
+                            Let me know as well which additional comics
+                            you would like to be included in the app.").arg(constants.repoGithub).arg(constants.repoGithub)
                 wrapMode: Text.WrapAtWordBoundaryOrAnywhere
                 font.pixelSize: Theme.fontSizeExtraSmall
                 horizontalAlignment: Text.AlignHCenter
@@ -221,11 +221,11 @@ Page {
                 id: resourcesLabel
                 width: implicitWidth
                 anchors.horizontalCenter: parent.horizontalCenter
-                text: "<a href='http://gocomics.com/'>GoComics</a>
-                       <br/><a href='http://tapastic.com/'>Tapastic</a>
-                       <br/><a href='http://comicskingdom.com/'>Comics Kingdom</a>
-                       <br/><a href='http://www.webtoons.com/'>WebToons</a>
-                       <br/><a href='http://www.reddit.com/r/webcomics/'>Reddit webcomics</a>"
+                text: "<a href=\"http://gocomics.com/\">GoComics</a><br />
+                       <a href=\"http://tapastic.com/\">Tapastic</a><br />
+                       <a href=\"http://comicskingdom.com/\">Comics Kingdom</a><br />
+                       <a href=\"http://www.webtoons.com/\">WebToons</a><br />
+                       <a href=\"http://www.reddit.com/r/webcomics/\">Reddit webcomics</a>"
                 font.pixelSize: Theme.fontSizeExtraSmall
                 lineHeight: 1.5
                 horizontalAlignment: Text.AlignLeft
