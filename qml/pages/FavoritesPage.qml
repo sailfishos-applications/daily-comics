@@ -1,8 +1,11 @@
 /**
- * Copyright (c) 2015 Damien Tardy-Panis
+ * Copyright (c) 2015-2019 Damien Tardy-Panis <damien@tardypad.me>
+ * Copyright (c) 2016 Haucke Schade <cnlpete@users.noreply.github.com>
+ * Copyright (c) 2019 Oleg Linkin <maledictusdemagog@gmail.com>
+ * Copyright (c) 2023 olf <Olf0@users.noreply.github.com>
  *
  * This file is subject to the terms and conditions defined in
- * file 'LICENSE', which is part of this source code package.
+ * file `LICENSE.txt`, which is part of this source code package.
  **/
 
 import QtQuick 2.0
@@ -66,37 +69,18 @@ Page {
             busy: favoriteComicsModel.newCount > 0 && !progressInfoBar.open
 
             MenuItem {
-                text: qsTr("Settings")
-                onClicked: pageStack.push(Qt.resolvedUrl("ComicsSettingsPage.qml"))
+                text: qsTr("About")
+                onClicked: pageStack.push(Qt.resolvedUrl("AboutPage.qml"))
             }
             MenuItem {
-                text: qsTr("Report problems with comics")
-                onClicked: {
-                    var comicsNamesList = favoriteComicsModel.errorComicNames();
-                    var encodedComicsNamesList = [];
-                    for (var i = 0; i < comicsNamesList.length; i++) {
-                        encodedComicsNamesList.push(encodeURIComponent(comicsNamesList[i]))
-                    }
-                    var finalComicsList = "\"" + encodedComicsNamesList.join("\", \"") + "\""
-                    ExternalLinks.mail(constants.maintainerMail, constants.mailErrorSubjectHeader,
-                                              constants.mailBodyHeader + "There are problems with comics: " + finalComicsList)
-                }
-                visible: favoriteComicsModel.errorCount > 0
+                text: qsTr("Settings")
+                onClicked: pageStack.push(Qt.resolvedUrl("ComicsSettingsPage.qml"))
             }
             MenuItem {
                 text: favoriteComicsModel.newCount > 0 ? qsTr("Read all new comics") : qsTr("No new comic")
                 onClicked: pageStack.push(Qt.resolvedUrl("NewComicsPage.qml"), {"comicsModel": favoriteComicsModel})
                 enabled: favoriteComicsModel.newCount > 0
                 visible: favoriteComicsModel.count > 0
-            }
-        }
-
-        PushUpMenu {
-            spacing: Theme.paddingLarge
-
-            MenuItem {
-                text: qsTr("About")
-                onClicked: pageStack.push(Qt.resolvedUrl("AboutPage.qml"))
             }
         }
 

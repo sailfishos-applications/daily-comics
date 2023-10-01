@@ -1,9 +1,9 @@
 /**
- * Copyright (c) 2015 Damien Tardy-Panis
- * Copyright (c) 2020 Mirian Margiani
+ * Copyright (c) 2015 Damien Tardy-Panis <damien@tardypad.me>
+ * Copyright (c) 2020 Mirian Margiani <ichthyosaurus@users.noreply.github.com>
  *
  * This file is subject to the terms and conditions defined in
- * file 'LICENSE', which is part of this source code package.
+ * file `LICENSE.txt`, which is part of this source code package.
  **/
 
 import QtQuick 2.0

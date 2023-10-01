@@ -5,3 +5,6 @@ Name=Daily Comics
 Icon=harbour-dailycomics
 Exec=harbour-dailycomics
 
+[X-Sailjail]
+Sandboxing=Disabled
+
