@@ -44,6 +44,10 @@ see https://github.com/sailfishos-applications/daily-comics/commits?author=lutin
 - [sv]: Copyright (c) 2018 Erik Lundin, see
   https://github.com/sailfishos-applications/daily-comics/commit/dfd23fb435a846fe5776a440669d92fe2eb5c39d
 
+Canonical references for this license:
+- https://spdx.org/licenses/MIT.html
+- https://opensource.org/license/mit/
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
