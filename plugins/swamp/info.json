@@ -5,6 +5,6 @@
   "authors": [
     "Gary Clark"
   ],
-  "homepage": "https://www.swamp.com.au/",
-  "stripSource": "http://www.swamp.com.au"
+  "homepage": "https://swamp.com.au/",
+  "stripSource": "https://swamp.com.au/"
 }
