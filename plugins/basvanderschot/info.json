@@ -1,10 +1,10 @@
 {
   "name": "Schot",
   "color": "1985cd",
-  "language": "nl",
+  "language": "en",
   "authors": [
     "Bas van der Schot"
   ],
-  "homepage": "https://basvanderschot.com",
+  "homepage": "https://basvanderschot.com/",
   "stripSource": "https://basvanderschot.com/feeds/feed-en.rss"
 }
