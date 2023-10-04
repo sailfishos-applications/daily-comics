@@ -16,9 +16,6 @@
 - Provides comics and cartoons in various languages
 - Covers a multitude of topics and styles
 
-## Translating Daily Comics (l10n / i18n)
-If you want to translate Daily Comics to a language it does not support yet or improve an extant translation, please [read the translations-README](./translations#readme).
-
 ## Screenshots of Daily Comics
 |       |       |       |
 | :---: | :---: | :---: |
@@ -31,7 +28,8 @@ If you want to translate Daily Comics to a language it does not support yet or i
 | Zoom strip | Select favorites | App cover |
 |       |       |       |
 
-## History of Daily Comics
+## Translating Daily Comics (l10n / i18n)
+If you want to translate Daily Comics to a language it does not support yet or improve an extant translation, please [read the translations-README](./translations#readme).
 
 ## Info
 ![Comics covers](/info/comics_covers.jpg?raw=true "Comics covers")
@@ -50,6 +48,8 @@ Some resources to find new comics
 - [WebToons](https://www.webtoons.com/)
 - [Reddit webcomics](https://www.reddit.com/r/webcomics/)
 
+## History of Daily Comics
+
 ## Contributors
 ### Source Code
 - [2015-2019](https://github.com/sailfishos-applications/daily-comics/commits?author=tardypad) Damien Tardy-Panis ([tardypad](https://github.com/tardypad))
@@ -67,25 +67,25 @@ Some resources to find new comics
 - [2019](https://github.com/sailfishos-applications/daily-comics/commits?author=sthocs) sthocs ([sthocs](https://github.com/sthocs))
 - [2019](https://github.com/sailfishos-applications/daily-comics/commit/f28be7cf1d112f9e48bf853ad032f8f6f9a622c8) dryo
 - [2020](https://github.com/sailfishos-applications/daily-comics/commit/47a83f15c3c43ac189cd31ea327e98cad19addb3) Joni Korhonen
-- [2020, 2023](https://github.com/sailfishos-applications/daily-comics/commits?author=Olf0) olf ([Olf0](https://github.com/Olf0))
+- [2020,2023](https://github.com/sailfishos-applications/daily-comics/commits?author=Olf0) olf ([Olf0](https://github.com/Olf0))
 
 ### Translations
 - [de](https://app.transifex.com/olf/daily-comics/language/de/)
   - [2016,2019](https://github.com/sailfishos-applications/daily-comics/commits?author=cnlpete) Haucke Schade ([cnlpete](https://github.com/cnlpete))
   - [2020](https://github.com/sailfishos-applications/daily-comics/commits?author=ichthyosaurus) Mirian Margiani ([ichthyosaurus](https://github.com/ichthyosaurus))
   - [2023](https://github.com/sailfishos-applications/daily-comics/commits?author=Olf0) olf ([Olf0](https://github.com/Olf0))
-- [fr](https://app.transifex.com/olf/daily-comics/language/fr/): [2018,2019](https://github.com/sailfishos-applications/daily-comics/commits?author=lutinotmalin) lutinotmalin <lutinotmalin@users.noreply.github.com>,
-see 
-- [sv](https://app.transifex.com/olf/daily-comics/language/sv/): [2018](https://github.com/sailfishos-applications/daily-comics/commit/dfd23fb435a846fe5776a440669d92fe2eb5c39d) Erik Lundin
+- [fr](https://app.transifex.com/olf/daily-comics/language/fr/):
+  - [2018,2019](https://github.com/sailfishos-applications/daily-comics/commits?author=lutinotmalin) lutinotmalin <lutinotmalin@users.noreply.github.com> 
+- [sv](https://app.transifex.com/olf/daily-comics/language/sv/):
+  - [2018](https://github.com/sailfishos-applications/daily-comics/commit/dfd23fb435a846fe5776a440669d92fe2eb5c39d) Erik Lundin
+
+## Licenses
+The source code of Daily Comics (i.e., all code in this source code repository) is released under the classic MIT license (see the [LICENSE](LICENSE.txt) file).
+Application specific graphics (icons etc.) are released under the [Creative Commons Attribution license (CC BY)](https://creativecommons.org/licenses/by/4.0/deed.en).
 
 Canonical references for this license:
 - https://spdx.org/licenses/MIT.html
 - https://opensource.org/license/mit/
-
-## Licenses
-Source code is released under the MIT license (See the [LICENSE](LICENSE.txt) file)  
-Application specific graphics are released under Creative Commons CC BY
-
 
 Contributions are welcome.
 
