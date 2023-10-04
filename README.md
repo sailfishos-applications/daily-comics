@@ -1,12 +1,12 @@
 # Daily Comics
-**Daily Comics is an simple to use and comic strips and cartoon reader for [SailfishOS](https://sailfishos.org/), which allows for easily adding new comics / cartoons.**
+**Daily Comics is an simple to use comic strips and cartoon reader for [SailfishOS](https://sailfishos.org/), which allows for adding new comics / cartoons easily.**
 
 ### Features
 - Select your favorite comics for quick access
 - Retrieve new strips automatically on app start
 - Show basic information about a comic
 - View all new strips consequtively
-- Hint unread comics on thje app cover
+- Indicate unread strips on the app cover
 - Save strips to the gallery / filesystem
 - Share strips via MMS, Bluetooth etc.
 - Zoom strips arbitrarily for readability
