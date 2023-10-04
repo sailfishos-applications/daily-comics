@@ -60,7 +60,7 @@ Some resources to find new comics
 
 ### Plugins
 - [2015-2019](https://github.com/sailfishos-applications/daily-comics/commits?author=tardypad) Damien Tardy-Panis ([tardypad](https://github.com/tardypad))
-- [2018](https://github.com/sailfishos-applications/daily-comics/commits?author=f03el) Erik Mållberg (f03el f03el))
+- [2018](https://github.com/sailfishos-applications/daily-comics/commits?author=f03el) Erik Mållberg ([f03el](https://github.com/f03el))
 - [2018-2020](https://github.com/sailfishos-applications/daily-comics/commits?author=Maledictus) Oleg Linkin ([Maledictus](https://github.com/Maledictus))
 - [2019,2020](https://github.com/sailfishos-applications/daily-comics/commits?author=cow-n-berg) Rob K ([cow-n-berg](https://github.com/cow-n-berg))
 - [2019](https://github.com/sailfishos-applications/daily-comics/commits?author=caio2k) caio2k ([caio2k](https://github.com/caio2k))
