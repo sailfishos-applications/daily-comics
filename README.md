@@ -1,60 +1,57 @@
-Daily Comics
-============
+# Daily Comics
+**Daily Comics is an simple to use and comic strips and cartoon reader for [SailfishOS](https://sailfishos.org/), which allows for easily adding new comics / cartoons.**
 
-Daily Comic strips reader for [SailfishOS](https://sailfishos.org/) and your [Jolla](http://jolla.com/)
+### Features
+- Select your favorite comics for quick access
+- Retrieve new strips automatically on app start
+- Show basic information about a comic
+- View all new strips consequtively
+- Hint unread comics on thje app cover
+- Save strips to the gallery / filesystem
+- Share strips via MMS, Bluetooth etc.
+- Zoom strips arbitrarily for readability
+- Full support for landscape orientation
+- Support for animated GIF comics
+- Each comic uses an individual plugin
+- Provides comics and cartoons in various languages
+- Covers a multitude of topics and styles
 
-Designed for phones usage  
-Basic tablet support
+## Translating Daily Comics (l10n / i18n)
+If you want to translate Daily Comics to a language it does not support yet or improve an extant translation, please [read the translations-README](./translations#readme).
 
+## Screenshots of Daily Comics
+|       |       |       |
+| :---: | :---: | :---: |
+|       |       |       |
+| ![Favorite comics](https://github.com/sailfishos-applications/daily-comics/raw/master/info/screenshots/favorites.png) | ![View strip](https://github.com/sailfishos-applications/daily-comics/raw/master/info/screenshots/comic_bar.png) | ![Comic info](https://github.com/sailfishos-applications/daily-comics/raw/master/info/screenshots/comic_info.png) |
+| Favorite&nbsp;comics | &nbsp;&nbsp;&nbsp;&nbsp;View&nbsp;strip&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;Comic&nbsp;info&nbsp;&nbsp;&nbsp;&nbsp; |
+|       |       |       |
+|       |       |       |
+| ![Zoom strip](https://github.com/sailfishos-applications/daily-comics/raw/master/info/screenshots/image_zoom.png) | ![Select favorites](https://github.com/sailfishos-applications/daily-comics/raw/master/info/screenshots/settings.png) | ![App cover](https://github.com/sailfishos-applications/daily-comics/raw/master/info/screenshots/cover.png) |
+| Zoom strip | Select favorites | App cover |
+|       |       |       |
 
-Features
---------
+## History of Daily Comics
 
-- select your favorite comics among the list for quick access
-- retrieve automatically the new strips locally
-- display basic information about comics
-- quick view all new strips in a row
-- glance at unread comics in cover
-- save your preferred strips to the gallery
-- share strips with people
-- zoom strip for better readability
-- full landscape view support
-- comics from multiple languages
-- animate gif comics
-- individual comics as independent plugins
-
-
-Info
-----
-
+## Info
 ![Comics covers](/info/comics_covers.jpg?raw=true "Comics covers")
 
-The [comics list](info/comics_list.md) contains all supported comics
+The [comics list](info/comics_list.md) shows the currently supported comics.
 
-If you have some additional comics you would like to be in the list, please contact me.  
-You can as well check the [guidelines](info/comic_addition.md) and open a Pull Request for it.
+If you want some additional comics or cartoons to be supported by Daily Comics, please check the [guidelines](info/comic_addition.md) and open a Pull Request.
 
-See the [screenshots](info/screenshots/) folder for an overview of the application
+Please file bug reports, feature suggestions and help requests in an [issue](issues), after having ensured, that this is not already covered by an existing issue.
 
-Check the [issues](https://github.com/tardypad/daily-comics/issues) tab for current issues and possibly upcoming features
+## Resources
+Some resources to find new comics
+- [GoComics](https://gocomics.com/)
+- [Tapastic](https://tapastic.com/)
+- [Comics Kingdom](https://comicskingdom.com/)
+- [WebToons](https://www.webtoons.com/)
+- [Reddit webcomics](https://www.reddit.com/r/webcomics/)
 
-
-Resources
----------
-
-Here below are few good online resources to find new comics
-
-- [GoComics](http://gocomics.com/)
-- [Tapastic](http://tapastic.com/)
-- [Comics Kingdom](http://comicskingdom.com/)
-- [WebToons](http://www.webtoons.com/)
-- [Reddit webcomics](http://www.reddit.com/r/webcomics/)
-
-
-Licenses
---------
-
-Source code is released under the MIT license (See the [LICENSE](LICENSE) file)  
+## Licenses
+Source code is released under the MIT license (See the [LICENSE](LICENSE.txt) file)  
 Application specific graphics are released under Creative Commons CC BY
 
 
