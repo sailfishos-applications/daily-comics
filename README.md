@@ -50,6 +50,42 @@ Some resources to find new comics
 - [WebToons](https://www.webtoons.com/)
 - [Reddit webcomics](https://www.reddit.com/r/webcomics/)
 
+## Contributors
+### Source Code
+- [2015-2019](https://github.com/sailfishos-applications/daily-comics/commits?author=tardypad) Damien Tardy-Panis ([tardypad](https://github.com/tardypad))
+- [2016,2019](https://github.com/sailfishos-applications/daily-comics/commits?author=cnlpete) Haucke Schade ([cnlpete](https://github.com/cnlpete))
+- [2018-2020](https://github.com/sailfishos-applications/daily-comics/commits?author=Maledictus) Oleg Linkin ([Maledictus](https://github.com/Maledictus))
+- [2020](https://github.com/sailfishos-applications/daily-comics/commits?author=ichthyosaurus) Mirian Margiani ([ichthyosaurus](https://github.com/ichthyosaurus))
+- [2023](https://github.com/sailfishos-applications/daily-comics/commits?author=Olf0) olf ([Olf0](https://github.com/Olf0))
+
+### Plugins
+- [2015-2019](https://github.com/sailfishos-applications/daily-comics/commits?author=tardypad) Damien Tardy-Panis ([tardypad](https://github.com/tardypad))
+- [2018](https://github.com/sailfishos-applications/daily-comics/commits?author=f03el) Erik Mållberg (f03el f03el))
+- [2018-2020](https://github.com/sailfishos-applications/daily-comics/commits?author=Maledictus) Oleg Linkin ([Maledictus](https://github.com/Maledictus))
+- [2019,2020](https://github.com/sailfishos-applications/daily-comics/commits?author=cow-n-berg) Rob K ([cow-n-berg](https://github.com/cow-n-berg))
+- [2019](https://github.com/sailfishos-applications/daily-comics/commits?author=caio2k) caio2k ([caio2k](https://github.com/caio2k))
+- [2019](https://github.com/sailfishos-applications/daily-comics/commits?author=sthocs) sthocs ([sthocs](https://github.com/sthocs))
+- [2019](https://github.com/sailfishos-applications/daily-comics/commit/f28be7cf1d112f9e48bf853ad032f8f6f9a622c8) dryo
+- [2020](https://github.com/sailfishos-applications/daily-comics/commit/47a83f15c3c43ac189cd31ea327e98cad19addb3) Joni Korhonen
+- [2020, 2023](https://github.com/sailfishos-applications/daily-comics/commits?author=Olf0) olf ([Olf0](https://github.com/Olf0))
+
+### Translations
+- [de]
+  - [2016,2019](https://github.com/sailfishos-applications/daily-comics/commits?author=cnlpete) Haucke Schade ([cnlpete](https://github.com/cnlpete))
+  - [2020](https://github.com/sailfishos-applications/daily-comics/commits?author=ichthyosaurus) Mirian Margiani ([ichthyosaurus](https://github.com/ichthyosaurus))
+  - [2023](https://github.com/sailfishos-applications/daily-comics/commits?author=Olf0) olf ([Olf0](https://github.com/Olf0))
+
+  Copyright (c) 2020 Mirian Margiani <ichthyosaurus@users.noreply.github.com>,
+see https://github.com/sailfishos-applications/daily-comics/commits?author=ichthyosaurus
+- [fr]: [2018,2019](https://github.com/sailfishos-applications/daily-comics/commits?author=lutinotmalin) lutinotmalin <lutinotmalin@users.noreply.github.com>,
+see 
+- [sv]: [2018](https://github.com/sailfishos-applications/daily-comics/commit/dfd23fb435a846fe5776a440669d92fe2eb5c39d) Erik Lundin
+  
+
+Canonical references for this license:
+- https://spdx.org/licenses/MIT.html
+- https://opensource.org/license/mit/
+
 ## Licenses
 Source code is released under the MIT license (See the [LICENSE](LICENSE.txt) file)  
 Application specific graphics are released under Creative Commons CC BY
