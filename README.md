@@ -11,7 +11,7 @@
 - Share strips via MMS, Bluetooth etc.
 - Zoom strips arbitrarily for readability
 - Full support for landscape orientation
-- Support for animated GIF comics
+- Support for animated GIFs
 - Each comic uses an individual plugin
 - Provides comics and cartoons in various languages
 - Covers a multitude of topics and styles
