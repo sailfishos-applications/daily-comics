@@ -74,9 +74,9 @@ Some resources to find new comics
   - [2016,2019](https://github.com/sailfishos-applications/daily-comics/commits?author=cnlpete) Haucke Schade ([cnlpete](https://github.com/cnlpete))
   - [2020](https://github.com/sailfishos-applications/daily-comics/commits?author=ichthyosaurus) Mirian Margiani ([ichthyosaurus](https://github.com/ichthyosaurus))
   - [2023](https://github.com/sailfishos-applications/daily-comics/commits?author=Olf0) olf ([Olf0](https://github.com/Olf0))
-- [fr](https://app.transifex.com/olf/daily-comics/language/fr/):
+- [fr](https://app.transifex.com/olf/daily-comics/language/fr/)
   - [2018,2019](https://github.com/sailfishos-applications/daily-comics/commits?author=lutinotmalin) [lutinotmalin](https://github.com/lutinotmalin)
-- [sv](https://app.transifex.com/olf/daily-comics/language/sv/):
+- [sv](https://app.transifex.com/olf/daily-comics/language/sv/)
   - [2018](https://github.com/sailfishos-applications/daily-comics/commit/dfd23fb435a846fe5776a440669d92fe2eb5c39d) Erik Lundin
 
 ## Licenses
