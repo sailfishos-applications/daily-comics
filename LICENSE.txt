@@ -36,13 +36,17 @@ see https://github.com/sailfishos-applications/daily-comics/commits?author=Olf0
 
 Translations
 - [de]:
-  Copyright (c) 2016,2019 Haucke Schade <cnlpete@users.noreply.github.com>,
-see https://github.com/sailfishos-applications/daily-comics/commits?author=cnlpete
-  Copyright (c) 2020 Mirian Margiani <ichthyosaurus@users.noreply.github.com>,
-see https://github.com/sailfishos-applications/daily-comics/commits?author=ichthyosaurus
-- [fr]: Copyright (c) 2018,2019 lutinotmalin <lutinotmalin@users.noreply.github.com>,
-see https://github.com/sailfishos-applications/daily-comics/commits?author=lutinotmalin
-- [sv]: Copyright (c) 2018 Erik Lundin, see
+  Copyright (c) 2016,2019 Haucke Schade <cnlpete@users.noreply.github.com>, see
+  https://github.com/sailfishos-applications/daily-comics/commits?author=cnlpete
+  Copyright (c) 2020 Mirian Margiani <ichthyosaurus@users.noreply.github.com>, see
+  https://github.com/sailfishos-applications/daily-comics/commits?author=ichthyosaurus
+  Copyright (c) 2023 olf <Olf0@users.noreply.github.com>, see
+  https://github.com/sailfishos-applications/daily-comics/commits?author=Olf0
+- [fr]:
+  Copyright (c) 2018,2019 lutinotmalin <lutinotmalin@users.noreply.github.com>, see
+  https://github.com/sailfishos-applications/daily-comics/commits?author=lutinotmalin
+- [sv]:
+  Copyright (c) 2018 Erik Lundin, see
   https://github.com/sailfishos-applications/daily-comics/commit/dfd23fb435a846fe5776a440669d92fe2eb5c39d
 
 Canonical references for this license:
