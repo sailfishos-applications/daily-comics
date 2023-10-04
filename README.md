@@ -70,17 +70,13 @@ Some resources to find new comics
 - [2020, 2023](https://github.com/sailfishos-applications/daily-comics/commits?author=Olf0) olf ([Olf0](https://github.com/Olf0))
 
 ### Translations
-- [de]
+- [de](https://app.transifex.com/olf/daily-comics/language/de/)
   - [2016,2019](https://github.com/sailfishos-applications/daily-comics/commits?author=cnlpete) Haucke Schade ([cnlpete](https://github.com/cnlpete))
   - [2020](https://github.com/sailfishos-applications/daily-comics/commits?author=ichthyosaurus) Mirian Margiani ([ichthyosaurus](https://github.com/ichthyosaurus))
   - [2023](https://github.com/sailfishos-applications/daily-comics/commits?author=Olf0) olf ([Olf0](https://github.com/Olf0))
-
-  Copyright (c) 2020 Mirian Margiani <ichthyosaurus@users.noreply.github.com>,
-see https://github.com/sailfishos-applications/daily-comics/commits?author=ichthyosaurus
-- [fr]: [2018,2019](https://github.com/sailfishos-applications/daily-comics/commits?author=lutinotmalin) lutinotmalin <lutinotmalin@users.noreply.github.com>,
+- [fr](https://app.transifex.com/olf/daily-comics/language/fr/): [2018,2019](https://github.com/sailfishos-applications/daily-comics/commits?author=lutinotmalin) lutinotmalin <lutinotmalin@users.noreply.github.com>,
 see 
-- [sv]: [2018](https://github.com/sailfishos-applications/daily-comics/commit/dfd23fb435a846fe5776a440669d92fe2eb5c39d) Erik Lundin
-  
+- [sv](https://app.transifex.com/olf/daily-comics/language/sv/): [2018](https://github.com/sailfishos-applications/daily-comics/commit/dfd23fb435a846fe5776a440669d92fe2eb5c39d) Erik Lundin
 
 Canonical references for this license:
 - https://spdx.org/licenses/MIT.html
