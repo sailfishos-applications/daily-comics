@@ -20,16 +20,13 @@
 |       |       |       |
 | :---: | :---: | :---: |
 |       |       |       |
-| ![Favorite comics](https://github.com/sailfishos-applications/daily-comics/raw/master/info/screenshots/favorites.png) | ![View strip](https://github.com/sailfishos-applications/daily-comics/raw/master/info/screenshots/comic_bar.png) | ![Comic info](https://github.com/sailfishos-applications/daily-comics/raw/master/info/screenshots/comic_info.png) |
+| ![Favorite comics](./info/screenshots/favorites.png?raw=true) | ![View strip](./info/screenshots/comic_bar.png?raw=true) | ![Comic info](./info/screenshots/comic_info.png?raw=true) |
 | Favorite&nbsp;comics | &nbsp;&nbsp;&nbsp;&nbsp;View&nbsp;strip&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;Comic&nbsp;info&nbsp;&nbsp;&nbsp;&nbsp; |
 |       |       |       |
 |       |       |       |
-| ![Zoom strip](https://github.com/sailfishos-applications/daily-comics/raw/master/info/screenshots/image_zoom.png) | ![Select favorites](https://github.com/sailfishos-applications/daily-comics/raw/master/info/screenshots/settings.png) | ![App cover](https://github.com/sailfishos-applications/daily-comics/raw/master/info/screenshots/cover.png) |
+| ![Zoom strip](./info/screenshots/image_zoom.png?raw=true) | ![Select favorites](./info/screenshots/settings.png?raw=true) | ![App cover](./info/screenshots/cover.png?raw=true) |
 | Zoom strip | Select favorites | App cover |
 |       |       |       |
-
-## Translating Daily Comics (l10n / i18n)
-If you want to translate Daily Comics to a language it does not support yet or improve an extant translation, please [read the translations-README](./translations#readme).
 
 ## Info
 ![Comics covers](./info/comics_covers.jpg?raw=true "Comics covers")
@@ -38,7 +35,7 @@ The [comics list](./info/comics_list.md) shows the currently supported comics.
 
 If you want some additional comics or cartoons to be supported by Daily Comics, please check the [guidelines](./info/comic_addition.md) and open a Pull Request.
 
-Please file bug reports, feature suggestions and help requests in an [issue](./issues), after having ensured, that this is not already covered by an existing issue.
+Please file bug reports, feature suggestions and help requests in an [issue](https://github.com/sailfishos-applications/daily-comics/issues), after having ensured, that this is not already covered by an existing issue.
 
 ## Resources
 Some resources to find new comics
@@ -47,6 +44,9 @@ Some resources to find new comics
 - [Comics Kingdom](https://comicskingdom.com/)
 - [WebToons](https://www.webtoons.com/)
 - [Reddit webcomics](https://www.reddit.com/r/webcomics/)
+
+## Translating Daily Comics (l10n / i18n)
+If you want to translate Daily Comics to a language it does not support yet or improve an extant translation, please [read the translations-README](./translations#readme).
 
 ## History of Daily Comics
 
@@ -70,13 +70,15 @@ Some resources to find new comics
 - [2020,2023](https://github.com/sailfishos-applications/daily-comics/commits?author=Olf0) olf ([Olf0](https://github.com/Olf0))
 
 ### Translations
-- [de](https://app.transifex.com/olf/daily-comics/language/de/)
+- [`de`](https://app.transifex.com/olf/daily-comics/language/de/)
   - [2016,2019](https://github.com/sailfishos-applications/daily-comics/commits?author=cnlpete) Haucke Schade ([cnlpete](https://github.com/cnlpete))
   - [2020](https://github.com/sailfishos-applications/daily-comics/commits?author=ichthyosaurus) Mirian Margiani ([ichthyosaurus](https://github.com/ichthyosaurus))
   - [2023](https://github.com/sailfishos-applications/daily-comics/commits?author=Olf0) olf ([Olf0](https://github.com/Olf0))
-- [fr](https://app.transifex.com/olf/daily-comics/language/fr/)
+- [`fr`](https://app.transifex.com/olf/daily-comics/language/fr/)
   - [2018,2019](https://github.com/sailfishos-applications/daily-comics/commits?author=lutinotmalin) [lutinotmalin](https://github.com/lutinotmalin)
-- [sv](https://app.transifex.com/olf/daily-comics/language/sv/)
+- [`nl`](https://app.transifex.com/olf/daily-comics/language/nl/)
+  - [2017](https://github.com/tardypad/sailfishos-daily-comics/pull/35) *\<Unknown\>*
+- [`sv`](https://app.transifex.com/olf/daily-comics/language/sv/)
   - [2018](https://github.com/sailfishos-applications/daily-comics/commit/dfd23fb435a846fe5776a440669d92fe2eb5c39d) Erik Lundin
 
 ## Licenses
