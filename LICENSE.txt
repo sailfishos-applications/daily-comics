@@ -20,9 +20,9 @@ Copyright (c) 2018 Erik Mållberg <f03el@users.noreply.github.com>,
 see https://github.com/sailfishos-applications/daily-comics/commits?author=f03el
 Copyright (c) 2018-2020 Oleg Linkin <maledictusdemagog@gmail.com>,
 see https://github.com/sailfishos-applications/daily-comics/commits?author=Maledictus
-Copyright (c) 2019 Rob K <cow-n-berg@users.noreply.github.com>,
+Copyright (c) 2019, 2020 Rob K <cow-n-berg@users.noreply.github.com>,
 see https://github.com/sailfishos-applications/daily-comics/commits?author=cow-n-berg
-and on 2019-04-19 two commits just as "Rob K" 
+and in April 2019 two, in May / June 2020 five commits just as "Rob K" 
 Copyright (c) 2019 caio2k <caio2k@users.noreply.github.com>,
 see https://github.com/sailfishos-applications/daily-comics/commits?author=caio2k
 Copyright (c) 2019 sthocs <sthocs@users.noreply.github.com>,
