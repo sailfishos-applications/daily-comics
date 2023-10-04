@@ -32,13 +32,13 @@
 If you want to translate Daily Comics to a language it does not support yet or improve an extant translation, please [read the translations-README](./translations#readme).
 
 ## Info
-![Comics covers](/info/comics_covers.jpg?raw=true "Comics covers")
+![Comics covers](./info/comics_covers.jpg?raw=true "Comics covers")
 
-The [comics list](info/comics_list.md) shows the currently supported comics.
+The [comics list](./info/comics_list.md) shows the currently supported comics.
 
-If you want some additional comics or cartoons to be supported by Daily Comics, please check the [guidelines](info/comic_addition.md) and open a Pull Request.
+If you want some additional comics or cartoons to be supported by Daily Comics, please check the [guidelines](./info/comic_addition.md) and open a Pull Request.
 
-Please file bug reports, feature suggestions and help requests in an [issue](issues), after having ensured, that this is not already covered by an existing issue.
+Please file bug reports, feature suggestions and help requests in an [issue](./issues), after having ensured, that this is not already covered by an existing issue.
 
 ## Resources
 Some resources to find new comics
@@ -80,7 +80,7 @@ Some resources to find new comics
   - [2018](https://github.com/sailfishos-applications/daily-comics/commit/dfd23fb435a846fe5776a440669d92fe2eb5c39d) Erik Lundin
 
 ## Licenses
-The source code of Daily Comics (i.e., all code in this source code repository) is released under the classic MIT license (see the [LICENSE](LICENSE.txt) file).
+The source code of Daily Comics (i.e., all code in this source code repository) is released under the classic MIT license (see the [LICENSE](./LICENSE.txt) file).
 Application specific graphics (icons etc.) are released under the [Creative Commons Attribution license (CC BY)](https://creativecommons.org/licenses/by/4.0/deed.en).
 
 Canonical references for this license:
