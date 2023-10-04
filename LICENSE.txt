@@ -45,6 +45,8 @@ Translations
 - [fr]:
   Copyright (c) 2018,2019 lutinotmalin <lutinotmalin@users.noreply.github.com>, see
   https://github.com/sailfishos-applications/daily-comics/commits?author=lutinotmalin
+- [nl]:
+  2017 by *<Unknown>*, see https://github.com/tardypad/sailfishos-daily-comics/pull/35
 - [sv]:
   Copyright (c) 2018 Erik Lundin, see
   https://github.com/sailfishos-applications/daily-comics/commit/dfd23fb435a846fe5776a440669d92fe2eb5c39d
