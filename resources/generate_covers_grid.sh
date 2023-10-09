@@ -1,6 +1,6 @@
 #!/bin/sh
 
-script_dir=$(dirname "$(readlink -e "$0")")
+script_dir="$(dirname "$(readlink -e "$0")")"
 
 ls -1dQ "$script_dir"/../plugins/*/cover.jpg \
   | shuf \
