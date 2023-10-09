@@ -1,6 +1,6 @@
 #!/bin/sh
 
-SCRIPT_DIR=$( dirname "$( readlink -e "$0" )" )
+SCRIPT_DIR=$(dirname "$(readlink -e "$0")")
 PREFIX_LIST="The |La |Le |Les |L['’]|De |Het |Die |Der |Das |El |Los |Las |Lo |Il |I |Gli |Una |Uno |Une "
 # Retrieve the real names of the plugins,
 # order them ignoring some prefixes and
