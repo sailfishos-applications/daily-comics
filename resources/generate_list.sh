@@ -5,7 +5,7 @@ PREFIX_LIST="The |La |Le |Les |L['’]|El |Los |Las |Lo |Il |I |Gli |Una |Uno |U
 # Retrieve the real names of the plugins,
 # order them ignoring some prefixes and
 # prepend a dash ("-") to each line:
-grep -hm 1 '"name":' "${SCRIPT_DIR}"/../plugins/*/info.json \
+grep -Fhm 1 '"name":' "${SCRIPT_DIR}"/../plugins/*/info.json \
   | sed -E -e 's/.*"name":\s*"([^"]*)".*/\1/' -e "s/^($PREFIX_LIST)(.*)/\\2,\\1/" \
   | sort \
   | sed -E -e "s/^(.*),($PREFIX_LIST)\$/\\2\\1/" -e 's/^/- /' \
