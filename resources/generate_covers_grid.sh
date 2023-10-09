@@ -1,15 +1,16 @@
 #!/bin/sh
 
-SCRIPT_DIR=$(dirname "$(readlink -e "$0")")
+script_dir=$(dirname "$(readlink -e "$0")")
 
-ls -1Q "${SCRIPT_DIR}"/../plugins/*/cover.jpg \
+ls -1dQ "$script_dir"/../plugins/*/cover.jpg \
   | shuf \
+  | tr '\n' ' ' \
   > /tmp/covers
 
-montage $(cat /tmp/covers) \
+eval montage "$(cat /tmp/covers)" \
   -tile 10 \
   -geometry 100x100 \
-  "${SCRIPT_DIR}"/../info/comics_covers.jpg
+  '"$script_dir"/../info/comics_covers.jpg'
 
 rm -f /tmp/covers
 
