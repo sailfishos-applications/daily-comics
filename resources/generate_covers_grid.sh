@@ -2,7 +2,8 @@
 
 script_dir="$(dirname "$(readlink -e "$0")")"
 
-# When omitting the shuffling, `montage "$script_dir/../plugins/*/cover.jpg" -tile …` should suffice.
+# When omitting the shuffling, `montage "$script_dir/../plugins/*/cover.jpg" -tile …` should suffice,
+# because the ImageMagick tools (as montage) provide built-in file-name globbing.
 ls -1dQ "$script_dir"/../plugins/*/cover.jpg \
   | shuf \
   | tr '\n' ' ' \
