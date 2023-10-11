@@ -2,6 +2,7 @@
 
 script_dir="$(dirname "$(readlink -e "$0")")"
 
+# When omitting the shuffling, `montage "$script_dir/../plugins/*/cover.jpg" -tile …` should suffice.
 ls -1dQ "$script_dir"/../plugins/*/cover.jpg \
   | shuf \
   | tr '\n' ' ' \
