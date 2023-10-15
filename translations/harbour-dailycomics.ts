@@ -246,9 +246,9 @@
     </message>
 </context>
 <context>
-    <name>RequestContactDevRectangle</name>
+    <name>ReportNewComicRectangle</name>
     <message>
-        <location filename="../qml/components/RequestContactDevRectangle.qml" line="42"/>
+        <location filename="../qml/components/ReportNewComicRectangle.qml" line="42"/>
         <source>Please report if you like to see some additional comic(s)</source>
         <translation>Please report if you like to see some additional comic(s)</translation>
     </message>
