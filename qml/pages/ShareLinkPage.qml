@@ -5,7 +5,6 @@
  * file `LICENSE.txt`, which is part of this source code package.
  **/
 
-
 import QtQuick 2.0
 import Sailfish.Silica 1.0
 import Sailfish.TransferEngine 1.0
@@ -33,7 +32,7 @@ Page {
 
         ViewPlaceholder {
             enabled: shareMethodList.model.count === 0 && shareMethodList.model.ready
-            text: qsTr("No sharing accounts available. You can add accounts in settings")
+            text: qsTr("No sharing accounts available.  You can add accounts in the SailfishOS settings.")
         }
     }
 }
