@@ -1,5 +1,6 @@
 /**
  * Copyright (c) 2018-2019 Oleg Linkin <maledictusdemagog@gmail.com>
+ * Copyright (c) 2023 olf <Olf0@users.noreply.github.com>
  *
  * This file is subject to the terms and conditions defined in
  * file `LICENSE.txt`, which is part of this source code package.
@@ -11,6 +12,7 @@ import harbour.dailycomics.Comics 1.0
 
 import "../utils"
 import "../components"
+
 
 Item {
     id: overlay
@@ -116,4 +118,3 @@ Item {
         }
     }
 }
-
