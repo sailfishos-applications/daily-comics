@@ -11,7 +11,6 @@ import Sailfish.Silica 1.0
 
 import harbour.dailycomics.Comics 1.0
 
-
 DockedPanel {
     id: comicInfoPanel
 
