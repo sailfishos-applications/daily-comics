@@ -7,7 +7,6 @@
  * file `LICENSE.txt`, which is part of this source code package.
  **/
 
-
 import QtQuick 2.0
 import Sailfish.Silica 1.0
 
@@ -15,6 +14,7 @@ import harbour.dailycomics.Comics 1.0
 
 import "../utils"
 import "../components"
+
 
 ZoomableImage {
     id: zoomableImage
