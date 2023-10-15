@@ -51,7 +51,7 @@ DockedPanel {
 
                     Label {
                         id: supportLabel
-                        text: qsTr("If you like the app, please consider supporting your favorite comic artists")
+                        text: qsTr("If you like this app, please consider supporting your favorite comic artists")
                         width: parent.width - supportImage.width - 3*Theme.paddingMedium
                         wrapMode: Text.WrapAtWordBoundaryOrAnywhere
                         font.pixelSize: Theme.fontSizeSmall
