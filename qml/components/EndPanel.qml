@@ -12,6 +12,7 @@ import Sailfish.Silica 1.0
 DockedPanel {
     property bool shown: false
     property bool isPortrait: (parent.isPortrait !== undefined) ? parent.isPortrait : true
+
     width: isPortrait ? parent.width : parent.width / 2
     height: isPortrait ? parent.height / 2 : parent.height
     contentHeight: height
@@ -51,7 +52,7 @@ DockedPanel {
 
                     Label {
                         id: supportLabel
-                        text: qsTr("If you like this app, please consider supporting your favorite comic artists")
+                        text: qsTr("If you like this app, please consider to support your favorite comic artists")
                         width: parent.width - supportImage.width - 3*Theme.paddingMedium
                         wrapMode: Text.WrapAtWordBoundaryOrAnywhere
                         font.pixelSize: Theme.fontSizeSmall
