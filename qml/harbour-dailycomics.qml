@@ -27,7 +27,7 @@ ApplicationWindow
     }
 
     Notification {
-        id:notification
+        id: notification
         appName: "Daily Comics"
     }
 
