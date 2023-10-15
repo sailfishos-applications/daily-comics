@@ -13,6 +13,7 @@ OTHER_FILES = \
     $$files(qml/*.qml, true) \
     translations/* \
     rpm/$${TARGET}.spec \
+    rpm/$${TARGET}.rpmlintrc \
     $${TARGET}.desktop
 
 RESOURCES += $${TARGET}.qrc
