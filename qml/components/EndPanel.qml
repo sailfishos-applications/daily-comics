@@ -1,5 +1,6 @@
 /**
  * Copyright (c) 2015 Damien Tardy-Panis <damien@tardypad.me>
+ * Copyright (c) 2023 olf <Olf0@users.noreply.github.com>
  *
  * This file is subject to the terms and conditions defined in
  * file `LICENSE.txt`, which is part of this source code package.
@@ -51,7 +52,7 @@ DockedPanel {
 
                     Label {
                         id: supportLabel
-                        text: qsTr("If you like the app, please consider supporting your favorite comic artists")
+                        text: qsTr("If you like this app, please consider to support your favorite comic artists")
                         width: parent.width - supportImage.width - 3*Theme.paddingMedium
                         wrapMode: Text.WrapAtWordBoundaryOrAnywhere
                         font.pixelSize: Theme.fontSizeSmall
