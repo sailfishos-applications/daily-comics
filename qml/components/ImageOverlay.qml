@@ -12,8 +12,6 @@ import harbour.dailycomics.Comics 1.0
 import "../utils"
 import "../components"
 
-import "../scripts/ExternalLinks.js" as ExternalLinks
-
 Item {
     id: overlay
 
