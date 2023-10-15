@@ -1,5 +1,6 @@
 /**
  * Copyright (c) 2015 Damien Tardy-Panis <damien@tardypad.me>
+ * Copyright (c) 2023 olf <Olf0@users.noreply.github.com>
  *
  * This file is subject to the terms and conditions defined in
  * file `LICENSE.txt`, which is part of this source code package.
@@ -7,8 +8,6 @@
 
 import QtQuick 2.0
 import Sailfish.Silica 1.0
-
-import "../scripts/ExternalLinks.js" as ExternalLinks
 
 Item {
 
@@ -38,14 +37,14 @@ Item {
                 leftMargin: Theme.paddingSmall
                 verticalCenter: parent.verticalCenter
             }
-            width: parent.width - mailButton.width - 3*Theme.paddingSmall
+            width: parent.width - githubButton.width - 3*Theme.paddingSmall
             wrapMode: Text.WrapAtWordBoundaryOrAnywhere
-            text: qsTr("Let me know if you're missing some of your favorite comics in this list")
+            text: qsTr("Please report if you like to see some additional comic(s)")
             font.pixelSize: Theme.fontSizeExtraSmall
         }
 
         IconButton {
-            id: mailButton
+            id: githubButton
             height: Theme.iconSizeMedium
             width: Theme.iconSizeMedium
             anchors {
@@ -55,7 +54,7 @@ Item {
                 verticalCenter: parent.verticalCenter
             }
             icon {
-                source: "image://theme/icon-m-mail"
+                source: Theme.colorScheme == 0  ? "qrc:/icon/light/github" : "qrc:/icon/dark/github"
                 height: Theme.iconSizeMedium
                 fillMode: Image.PreserveAspectFit
             }
@@ -63,12 +62,7 @@ Item {
 
         MouseArea {
             anchors.fill: parent
-            onClicked: {
-                var mailRequestMail    = constants.maintainerMail
-                var mailRequestSubject = constants.mailSubjectHeader
-                var mailRequestMessage = constants.mailBodyHeader + "Please add these comics to the app: "
-                ExternalLinks.mail(mailRequestMail, mailRequestSubject, mailRequestMessage)
-            }
+            onClicked: Qt.openUrlExternally(constants.issuesGithub)
         }
     }
 }

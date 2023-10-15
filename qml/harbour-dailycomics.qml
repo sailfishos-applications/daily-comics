@@ -1,5 +1,6 @@
 /**
  * Copyright (c) 2015 Damien Tardy-Panis <damien@tardypad.me>
+ * Copyright (c) 2023 olf <Olf0@users.noreply.github.com>
  *
  * This file is subject to the terms and conditions defined in
  * file `LICENSE.txt`, which is part of this source code package.
@@ -27,7 +28,7 @@ ApplicationWindow
     }
 
     Notification {
-        id:notification
+        id: notification
         appName: "Daily Comics"
     }
 
@@ -43,5 +44,3 @@ ApplicationWindow
         pageStack.push(Qt.resolvedUrl("pages/NewComicsPage.qml"), {"comicsModel": favoritesPage.comicsModel}, PageStackAction.Immediate)
     }
 }
-
-

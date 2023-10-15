@@ -16,8 +16,6 @@ import harbour.dailycomics.Comics 1.0
 import "../delegates"
 import "../utils"
 
-import "../scripts/ExternalLinks.js" as ExternalLinks
-
 Page {
     objectName: "FavoritesPage"
 

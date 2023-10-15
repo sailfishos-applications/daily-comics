@@ -11,10 +11,9 @@ HEADERS += $$files(src/*.h)
 
 OTHER_FILES = \
     $$files(qml/*.qml, true) \
-    $$files(qml/*.js, true) \
     translations/* \
-    rpm/$${TARGET}.yaml \
     rpm/$${TARGET}.spec \
+    rpm/$${TARGET}.rpmlintrc \
     $${TARGET}.desktop
 
 RESOURCES += $${TARGET}.qrc
@@ -38,8 +37,8 @@ DEFINES += \
     PLUGINS_FOLDER_PATH=\"\\\"$${plugins.path}/plugins\\\"\"
 
 TRANSLATIONS += \
+    translations/$${TARGET}.ts \
     translations/$${TARGET}-de.ts \
-    translations/$${TARGET}-en.ts \
+    translations/$${TARGET}-fr.ts \
     translations/$${TARGET}-nl.ts \
-    translations/$${TARGET}-sv.ts \
-    translations/$${TARGET}-fr.ts
+    translations/$${TARGET}-sv.ts

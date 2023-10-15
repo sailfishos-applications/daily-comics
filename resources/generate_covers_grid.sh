@@ -1,16 +1,18 @@
 #!/bin/sh
 
-SCRIPT_DIR=$( dirname "$( readlink --canonicalize "$0" )" )
+script_dir="$(dirname "$(readlink -e "$0")")"
 
-# filenames with spaces handling nightmare
-ls "${SCRIPT_DIR}"/../plugins/*/cover.jpg \
+# When omitting the shuffling, `montage "$script_dir/../plugins/*/cover.jpg" -tile …` should suffice,
+# because the ImageMagick tools (as montage) provide built-in file-name globbing.
+ls -1dQ "$script_dir"/../plugins/*/cover.jpg \
   | shuf \
-  | sed -r "s/(.*)/'\1'/" \
+  | tr '\n' ' ' \
   > /tmp/covers
 
-montage @/tmp/covers \
+eval montage "$(< /tmp/covers)" \
   -tile 10 \
-  -geometry 80x80 \
-  "${SCRIPT_DIR}/../info/comics_covers.jpg"
+  -geometry 100x100 \
+  '"$script_dir"/../info/comics_covers.jpg'
 
 rm -f /tmp/covers
+
