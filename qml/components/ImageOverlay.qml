@@ -88,8 +88,8 @@ Item {
             onClicked: {
                 Clipboard.text = comicProxy.stripImageUrl
                 window.notify(Clipboard.text !== "" ?
-                        qsTr("Comic strip url copied to clipboard") :
-                        qsTr("Unable to copy comic strip url to clipboard"))
+                        qsTr("Comic strip URL copied to clipboard") :
+                        qsTr("Unable to copy comic strip URL to clipboard"))
             }
         }
 
