@@ -89,7 +89,7 @@ Page {
                         horizontalCenter: parent.horizontalCenter
                     }
                     width: parent.width - Theme.horizontalPageMargin
-                    text: qsTr("<a href=\"%1\">Source code</a>").arg(constants.repoGithub)
+                    text: qsTr("<a href=\"%1\">Source code repository</a>").arg(constants.repoGithub)
                     font.pixelSize: Theme.fontSizeSmall
                     horizontalAlignment: Text.AlignHCenter
                     linkColor: Theme.highlightColor
