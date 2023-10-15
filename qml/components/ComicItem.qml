@@ -15,7 +15,6 @@ import harbour.dailycomics.Comics 1.0
 import "../utils"
 import "../components"
 
-
 ZoomableImage {
     id: zoomableImage
     imageOpacity: indicator.visible ? Theme.opacityLow : 1.0
