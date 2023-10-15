@@ -14,8 +14,6 @@ import harbour.dailycomics.Comics 1.0
 import "../utils"
 import "../components"
 
-import "../scripts/ExternalLinks.js" as ExternalLinks
-
 ZoomableImage {
     id: zoomableImage
     imageOpacity: indicator.visible ? Theme.opacityLow : 1.0
@@ -28,10 +26,10 @@ ZoomableImage {
     StatusOverlay {
         id: indicator
         loadingText: qsTr("Loading comic")
-        defaultErrorText: qsTr("Can't display comic")
-        networkErrorText: qsTr("Can't download comic")
-        parsingErrorText: qsTr("Can't extract comic")
-        savingErrorText: qsTr("Can't save comic")
+        defaultErrorText: qsTr("Cannot display comic")
+        networkErrorText: qsTr("Cannot download comic")
+        parsingErrorText: qsTr("Cannot extract comic")
+        savingErrorText: qsTr("Cannot save comic")
     }
 
     MouseArea {
@@ -50,10 +48,7 @@ ZoomableImage {
         width: parent.width
         height: Theme.itemSizeMedium
 
-        onClicked: {
-            ExternalLinks.mail(constants.maintainerMail, constants.mailErrorSubjectHeader,
-                constants.mailBodyHeader + 'There is a problem with comic "%1"'.arg(encodeURIComponent(zoomableImage.name)))
-        }
+        onClicked: Qt.openUrlExternally(constants.issuesGithub)
 
         Rectangle {
             anchors.fill: parent; z: -1
@@ -65,23 +60,24 @@ ZoomableImage {
         Label {
             anchors {
                 leftMargin: Theme.horizontalPageMargin; left: parent.left
-                rightMargin: Theme.paddingMedium; right: mailButton.left
+                rightMargin: Theme.paddingMedium; right: githubButton.left
                 top: parent.top; bottom: parent.bottom
             }
             verticalAlignment: Text.AlignVCenter
-            text: qsTr("Please contact me if the problem persists.")
+            text: qsTr("Please report if this issue persists.")
             font.pixelSize: Theme.fontSizeExtraSmall
-            wrapMode: Text.WrapAtWordBoundaryOrAnywhere
+            wrapMode: Text.WordWrap
         }
 
         HighlightImage {
-            id: mailButton
+            id: githubButton
             anchors {
                 right: parent.right; rightMargin: Theme.horizontalPageMargin
                 verticalCenter: parent.verticalCenter
             }
             height: Theme.iconSizeMedium; width: height
-            source: "image://theme/icon-m-mail"
+            fillMode: Image.PreserveAspectFit
+            source: Theme.colorScheme == 0  ? "qrc:/icon/light/github" : "qrc:/icon/dark/github"
             highlighted: parent.highlighted
         }
     }
