@@ -154,7 +154,7 @@ SilicaFlickable {
                 if (status === Image.Ready)
                     zoomableImage.read()
                 else if (status === Image.Error) {
-                    zoomableImage.setError(qsTr("Image error"), qsTr("Can't display strip"))
+                    zoomableImage.setError(qsTr("Image error"), qsTr("Cannot display strip"))
                 }
             }
 
