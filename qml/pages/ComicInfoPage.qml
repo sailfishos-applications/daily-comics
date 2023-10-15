@@ -15,7 +15,6 @@ import harbour.dailycomics.Comics 1.0
 import "../utils"
 import "../components"
 
-
 Page {
     id: comicInfoPage
 
