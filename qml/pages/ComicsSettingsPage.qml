@@ -62,7 +62,7 @@ Dialog {
             }
         }
 
-        footer: RequestContactDevRectangle {
+        footer: ReportNewComicRectangle {
             flickable: gridView
         }
 
