@@ -71,7 +71,7 @@ If you want to translate Daily Comics to a language it does not support yet or i
 
 ### Translations
 - [`de`](https://app.transifex.com/olf/daily-comics/language/de/)
-  - [2016,2019](https://github.com/sailfishos-applications/daily-comics/commits?author=cnlpete) Hauke Schade ([cnlpete](https://github.com/cnlpete))
+  - [2016,2019,2024](https://github.com/sailfishos-applications/daily-comics/commits?author=cnlpete) Hauke Schade ([cnlpete](https://github.com/cnlpete))
   - [2020](https://github.com/sailfishos-applications/daily-comics/commits?author=ichthyosaurus) Mirian Margiani ([ichthyosaurus](https://github.com/ichthyosaurus))
   - [2023](https://github.com/sailfishos-applications/daily-comics/commits?author=Olf0) olf ([Olf0](https://github.com/Olf0))
 - [`fr`](https://app.transifex.com/olf/daily-comics/language/fr/)
