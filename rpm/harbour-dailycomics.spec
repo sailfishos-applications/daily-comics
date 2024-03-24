@@ -9,12 +9,12 @@ Name:       harbour-dailycomics
 
 Summary:    Daily comic strips reader
 # The <version> tag must adhere to semantic versioning: Among multiple other
-# reasons due to its use for `qmake5` in line 107.  See https://semver.org/
+# reasons due to its use for `qmake5` in line 90.  See https://semver.org/
 Version:    1.9.95
-# The <release> tag comprisees one of {alpha,beta,rc,release} postfixed with a
-# natural number greater or equal to 1 (e.g., "beta3") and may additionally be
+# The <release> tag comprises one of {alpha,beta,rc,release} postfixed with a
+# natural number greater or equal to 1 (e.g. "beta3") and may additionally be
 # postfixed with a plus character ("+"), the name of the packager and a release
-# number chosen by her (e.g., "rc2+jane4").  `{alpha|beta|rc|release}`
+# number chosen by her (e.g. "rc2+jane4").  `{alpha|beta|rc|release}`
 # indicates the expected status of the software.  No other identifiers shall be
 # used for any published version, but for the purpose of testing infrastructure
 # other nonsensual identifiers as `adud` may be used, which do *not* trigger a
