@@ -1,5 +1,6 @@
 /**
  * Copyright (c) 2015 Damien Tardy-Panis <damien@tardypad.me>
+ * Copyright (c) 2024 Hauke Schade <cnlpete@users.noreply.github.com>
  *
  * This file is subject to the terms and conditions defined in
  * file `LICENSE.txt`, which is part of this source code package.
@@ -62,7 +63,7 @@ Dialog {
             }
         }
 
-        footer: RequestContactDevRectangle {
+        footer: ReportNewComicRectangle {
             flickable: gridView
         }
 
