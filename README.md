@@ -31,7 +31,7 @@
 ## Info
 ![Comics covers](./info/comics_covers.jpg?raw=true "Comics covers")
 
-The [comics list](./info/comics_list.md) shows the currently supported comics.
+The [comics list](https://github.com/sailfishos-applications/daily-comics/blob/master/info/comics_list.md) shows the currently supported comics.
 
 If you want some additional comics or cartoons to be supported by Daily Comics, please check the [guidelines](./info/comic_addition.md) and open a Pull Request.
 
