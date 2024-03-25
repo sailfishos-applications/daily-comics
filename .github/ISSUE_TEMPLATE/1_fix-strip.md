@@ -11,15 +11,15 @@ labels: 'fix strip'
 #### REQUIRED DATA
 - Name of the strip<br />
   ***\<name in Daily Comics\>***
-- Document, whose source code allows for extracting a URL to a single image of the newest, published strip by a RegEx (see next bullet point).  This page may be identical to the home-page of the strip.<br />
+- Document, which HTML source code allows for extracting a URL to a single image of the newest, published strip by a RegEx (see next bullet point).  This page may be identical to the home-page of the strip.<br />
   ***\<URL\>***
 - An idea for a RegEx (regular expression) to do so, containing a sub-expression which exactly matches the image URL<br />
   ***`<RegEx>`***
-- If such a single RegEx is not feasible, please design a JavaScript code snippet, which extracts the URL to the image of the current comic strip from the document retrieved via the URL provided in the first bullet point of this section "NECESSARY DATA".
+- If such a single RegEx is not feasible, please design a JavaScript code snippet, which extracts the URL to the image of the current comic strip from the document retrieved via the URL provided in the second bullet point of this section "REQUIRED DATA".
   ```
   <JavaScript code>
   ```
 
 #### ADDITIONAL INFORMATION
-*\<Please consider thoroughly which other pieces of information may be relevant.\>*
+*\<Please consider thoroughly which other pieces of information might be relevant.\>*
 
