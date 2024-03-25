@@ -48,8 +48,6 @@ Some resources to find new comics
 ## Translating Daily Comics (l10n / i18n)
 If you want to translate Daily Comics to a language it does not support yet or improve an extant translation, please [read the translations-README](./translations#readme).
 
-## History of Daily Comics
-
 ## Contributors
 ### Source Code
 - [2015-2019](https://github.com/sailfishos-applications/daily-comics/commits?author=tardypad) Damien Tardy-Panis ([tardypad](https://github.com/tardypad))
@@ -82,10 +80,10 @@ If you want to translate Daily Comics to a language it does not support yet or i
   - [2018](https://github.com/sailfishos-applications/daily-comics/commit/dfd23fb435a846fe5776a440669d92fe2eb5c39d) Erik Lundin
 
 ## Licenses
-The source code of Daily Comics (i.e., all code in this source code repository) is released under the classic MIT license (see the [LICENSE](./LICENSE.txt) file).
+The source code of Daily Comics (i.e. all code in this source code repository) is released under the classic MIT license (see the [LICENSE](./LICENSE.txt) file).
 Application specific graphics (icons etc.) are released under the [Creative Commons Attribution license (CC BY)](https://creativecommons.org/licenses/by/4.0/deed.en).
 
-Canonical references for this license:
+Canonical references for the MIT license:
 - https://spdx.org/licenses/MIT.html
 - https://opensource.org/license/mit/
 
