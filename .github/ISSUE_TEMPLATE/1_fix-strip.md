@@ -7,7 +7,7 @@ labels: 'fix strip'
 
 **Daily Comics VERSION** (Daily Comics → [Top pulley] About): ***`<x.y.z>`***
 
-*\<Please do name only a single new comic / cartoon in each "fix strip" suggestion!\>*
+*\<Please do name only a single comic / cartoon in each "fix strip" suggestion!\>*
 
 #### NECESSARY DATA
 - Name of the strip<br />
