@@ -1,10 +1,10 @@
 #!/bin/sh
 
-duplicates=$(grep -h color plugins/*/info.json | cut -d: -f2 | sed -r 's/.*"(.*)".*/\1/' | sort | uniq -d)
+duplicates="$(grep -Fh color plugins/*/info.json | cut -d: -f2 | sed -E '^[^"]*"(.*)".*$/\1/' | sort | uniq -d)"
 
 if [ -n "$duplicates"  ]
 then
-  echo "There are multiple comics with the same color:"
+  echo "There are multiple comics with the same color(s):"
   echo "$duplicates"
   exit 1
 fi
