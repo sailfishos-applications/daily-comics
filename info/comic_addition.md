@@ -28,7 +28,7 @@ This information must be provided in a JSON file named `info.json`.
 ```
 {
   "name": "CommitStrip",                                 // Display name
-  "color": "2a3f6a",                                     // Color in hexadecimal format
+  "color": "2a3f6a",                                     // Colour in hexadecimal "HTML format"
   "language": "en",                                      // Language code
   "authors": [                                           //
     "Etienne Issartial",                                 // List of authors
@@ -47,7 +47,7 @@ The cover image must be a file named `cover.jpg`.
 
 ### Design
 - The cover image must be square (i.e. 1:1 aspect ratio).
-- The background must be a plain color (i.e. no gradient etc.) and should be aforementioned comic's own color.
+- The background must be a plain colour (i.e. no gradient etc.) and should be aforementioned comic's own colour.
 - The comic's name or its logo should be displayed on the center top of the cover image.
 - The foreground should contain the main character(s).
 
@@ -66,12 +66,12 @@ The cover image must be a file named `cover.jpg`.
 - Preferably no object is present with the character(s) (unless common for the comic or helping define the comic).
 - The logo should be adapted to contain only the necessary parts (no tagline, background, author name, copyright / trademarks signs etc.).
 - The logo's colour may be changed, if it is monochrome, or if it is the same or a very similar colour as the comic's main colour.
-- Fully black or fully white are forbidden as a comic's main color.
+- Fully black or fully white are forbidden as a comic's main colour.
 - The main character(s), logo or other items depoicted may extend to the bottom of the cover (i.e. without leaving a border), but not to either side or the top.
 - If no main character exists, use a representative item or character.
 - If there are too many main characters, show only to the most well known ones / recognisable ones.
-- If the main colour is the color of the main character, the main colour (and hence the background colour) should be darkened or lightened to provide sufficient contrast to the character.
-- The character(s) are preferably shown in full color, even if they appear even only sometimes as such in the strips.
+- If the main colour is the colour of the main character, the main colour (and hence the background colour) should be darkened or lightened to provide sufficient contrast to the character.
+- The character(s) are preferably shown in full colour, even if they appear even only sometimes as such in the strips.
 
 ## Example strip for a comic / cartoon
 The example must be a file named `example.jpg`.
@@ -114,7 +114,7 @@ function(page) {
 - Provide a higher resolution cover image ([1000x1000 px²](https://github.com/tardypad/sailfishos-daily-comics/pull/86#issuecomment-491614824)) in the comic's plugin folder with name `cover_big.jpg`.
 - Regenerate the comic covers grid with the `resources/generate_covers_grid.sh` shell script.
 - Regenerate the comics list with the `resources/generate_list.sh` shell script.
-- If necessary, update the prefixes to ignore for sorting comic names in the `Comic` class (¿where?, please specify) and in the `resources/generate_list.sh` script.
+- If necessary, update the prefixes to ignore for sorting comic names in the `Comic` class (*ToDo: ¿where?, please specify.*) and in the `resources/generate_list.sh` script.
 
 ## Note
 - Mind that a extracted comic strip proper can be in another format than JPEG, e.g. PNG or GIF (for animated comics).
