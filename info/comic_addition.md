@@ -1,5 +1,5 @@
 # Adding a new comic
-This document describes the guidelines for adding a new comic plugin.
+This documents the guidelines for adding a new comic plugin.
 
 ## Structure
 A subfolder with a unique, well recognisable ("sounding") identifier name must be created in the `plugins` folder.
@@ -98,7 +98,7 @@ The script must be a file named `extract.js`.
 This script is used to extract the current strip URL from the source as defined in the information.  
 The Javascript code needs to comprise a single function with a single parameter.  
 That function will be called with the content provided by the source URL.  
-It must to return a string containing an absolute or relative URL to the most recent strip.
+It must return a string with an absolute or relative (to the `stripSource`) URL to the most recent strip.
 
 #### Example
 ```
