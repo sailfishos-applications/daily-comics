@@ -53,7 +53,7 @@ If you want to translate Daily Comics to a language it does not support yet or i
 ## Contributors
 ### Source Code
 - [2015-2019](https://github.com/sailfishos-applications/daily-comics/commits?author=tardypad) Damien Tardy-Panis ([tardypad](https://github.com/tardypad))
-- [2016,2019](https://github.com/sailfishos-applications/daily-comics/commits?author=cnlpete) Hauke Schade ([cnlpete](https://github.com/cnlpete))
+- [2016,2019,2024](https://github.com/sailfishos-applications/daily-comics/commits?author=cnlpete) Hauke Schade ([cnlpete](https://github.com/cnlpete))
 - [2018-2020](https://github.com/sailfishos-applications/daily-comics/commits?author=Maledictus) Oleg Linkin ([Maledictus](https://github.com/Maledictus))
 - [2020](https://github.com/sailfishos-applications/daily-comics/commits?author=ichthyosaurus) Mirian Margiani ([ichthyosaurus](https://github.com/ichthyosaurus))
 - [2023,2024](https://github.com/sailfishos-applications/daily-comics/commits?author=Olf0) olf ([Olf0](https://github.com/Olf0))
