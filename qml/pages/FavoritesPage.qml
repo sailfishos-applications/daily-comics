@@ -1,6 +1,6 @@
 /**
  * Copyright (c) 2015-2019 Damien Tardy-Panis <damien@tardypad.me>
- * Copyright (c) 2016 Hauke Schade <cnlpete@users.noreply.github.com>
+ * Copyright (c) 2016 Hauke Schade <github@cnlpete.de>
  * Copyright (c) 2019 Oleg Linkin <maledictusdemagog@gmail.com>
  * Copyright (c) 2023 olf <Olf0@users.noreply.github.com>
  *
