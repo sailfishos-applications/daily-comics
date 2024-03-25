@@ -5,8 +5,8 @@
     <name>AboutPage</name>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="63"/>
-        <source>Your daily fix of your favorite comic strips</source>
-        <translation>Your daily fix of your favorite comic strips</translation>
+        <source>Read your favourite comic strips every day.</source>
+        <translation>Read your favourite comic strips every day.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="79"/>
