@@ -1,123 +1,106 @@
+# Adding a new comic
+This document describes the guidelines for adding a new comic plugin.
 
-Addition of new comic
-=====================
+## Structure
+A subfolder with a unique, well recognisable ("sounding") identifier name must be created in the `plugins` folder.
+This identifier must comprise only alphanumerical and lowercase characters.
 
-This document describes guidelines to follow for the addition of a new comic plugin.
-
-
-Structure
----------
-
-A subfolder with an unique identifier name needs to be created in the _plugins_ folder.  
-That identifier must contain only alphanumerical and lowercase characters.
-
-Example
+#### Example
 ```
 plugins/
-  commitstrip/
+  <comic-id-name>/
     cover.jpg
     example.jpg
     extract.js
     info.json
 ```
 
+## Required information
+- List of the authors (past / present, scenarist / cartoonist / etc.).
+- Homepage where to find more info about the comic.
+- Comic main representative colour (e.g. homepage colour, typical scenery colour, typical character colour).
+- Language used in the comic strips.
+- Source where to extract a link to the latest strip (e.g. RSS, API, URL).
 
-Information needed
-------------------
+This information must be provided in a JSON file named `info.json`.
 
-- list of the authors (past/present, scenarist/cartoonist/...)
-- homepage where to find more info about the comic
-- comic main representative color (homepage color/strips color/character color/...)
-- language used in the comic strips
-- source where to find a link to the latest strip (RSS/API/URL/...)
-
-This information needs to be in a JSON file named _info.json_
-
-Example
+#### Example
 ```
 {
-  "name": "CommitStrip",                                // Display name
-  "color": "2a3f6a",                                    // Color in hexadecimal format
-  "language": "en",                                     // Language code
-  "authors": [                                          //
-    "Etienne Issartial",                                // List of authors
-    "Thomas Gx"                                         //
-  ],                                                    //
-  "homepage": "http://www.commitstrip.com/",            // Homepage url
-  "stripSource": "http://www.commitstrip.com/en/feed/"  // Source url for the current strip
+  "name": "CommitStrip",                                 // Display name
+  "color": "2a3f6a",                                     // Color in hexadecimal format
+  "language": "en",                                      // Language code
+  "authors": [                                           //
+    "Etienne Issartial",                                 // List of authors
+    "Thomas Gx"                                          // or a single author (then omit the backets `[]`)
+  ],                                                     //
+  "homepage": "https://www.commitstrip.com/",            // Homepage URL
+  "stripSource": "https://www.commitstrip.com/en/feed/"  // Source URL for extracting the most recent strip
 }
 ```
 
+## Comic cover
+The cover image must be a file named `cover.jpg`.
 
-Comic cover
------------
+### Goal
+- The cover should be immediately recognisable when browsing the full list of comics.
 
-The cover needs to be a file named _cover.jpg_
+### Design
+- The cover image must be square (i.e. 1:1 aspect ratio).
+- The background must be a plain color (i.e. no gradient etc.) and should be aforementioned comic's own color.
+- The comic's name or its logo should be displayed on the center top of the cover image.
+- The foreground should contain the main character(s).
 
-### Goal:
-- The cover should be immediately recognizable while scanning the full list of comics
+### Technical
+- The format is JPEG.
+- Size is 300x300 pixels.
+- Try to minimise the file size, e.g. by removing metadata, using an appropriate compression factor etc.
 
-### Design:
-- The cover is within a square
-- Background is plain color from the comic own color
-- Logo containing comic name should be displayed on top and centered
-- The foregound contains the main character(s) centered
+### Remarks
+- Ensure text (especially the comic's name / logo) is well readable when displayed in the settings page of Daily Comics.
+- The logo and the characters shall not overlap.
+- There should not be any other item shown than the logo and the main character(s).
+- Provide a strong contrast (colour and / or brightness) between the background colour to the logo and character.
+- The main character(s) is preferably shown in a characteristic attitude.
+- Do not use shadows or other visual effects (at all, especially for the main character(s) or logo).
+- Preferably no object is present with the character(s) (unless common for the comic or helping define the comic).
+- The logo should be adapted to contain only the necessary parts (no tagline, background, author name, copyright / trademarks signs etc.).
+- The logo's colour may be changed, if it is monochrome, or if it is the same or a very similar colour as the comic's main colour.
+- Fully black or fully white are forbidden as a comic's main color.
+- The main character(s), logo or other items depoicted may extend to the bottom of the cover (i.e. without leaving a border), but not to either side or the top.
+- If no main character exists, use a representative item or character.
+- If there are too many main characters, show only to the most well known ones / recognisable ones.
+- If the main colour is the color of the main character, the main colour (and hence the background colour) should be darkened or lightened to provide sufficient contrast to the character.
+- The character(s) are preferably shown in full color, even if they appear even only sometimes as such in the strips.
 
-### Technical:
-- format is JPEG
-- size is 300x300 pixels
-- minimize the size (remove metadata/use proper compression/...)
+## Example strip for a comic / cartoon
+The example must be a file named `example.jpg`.
 
-### Remarks:
-- ensure the text is legible when displayed in the smallest size in the app
-- the logo and the characters must not overlap
-- there must not be any other item than the logo and the characters
-- good contrast between logo/character and background color
-- main character(s) is preferably shown in a characteristic attitude
-- no shadows or effects on the main character(s)
-- preferably no object is present with the characters (unless common for the comic or helping define the comic)
-- the logo can be adapted to contain only the necessary parts (no tagline, background, author name, copyright/trademarks signs,...)
-- the logo color can be changed if monochrome and is the same as the comic main color
-- no full black or full white main color
-- the main character(s) can expand in the bottom of the cover (but not on the side)
-- if no main character, take a representative item or character
-- if too many characters, limit to the most well known ones
-- if the main color is the color of the main character, the main color can be darkened/lightened slightly to improve the contrast with the character
-- the characters are preferably shown in full color (if they appear even only sometimes as such in the strips)
+### Goal
+- The example strip should give users that do not know this comic an idea of its usual content.
 
+### Choice
+- The example strip should be characteristic of the comic with regard to format, drawing style and topic.
 
-Comic example strip
--------------------
+### Technical
+- The format is JPEG.
+- Remove the not necessary surrounding parts of the strip.
+- Maximum width and height is 600 pixels.
+- Try to minimise the file size, e.g. by removing metadata, using an appropriate compression factor etc.
 
-The cover needs to be a file named _example.jpg_
-
-### Goal:
-- The example strip should give users that don't know the comic an accurate idea of it.
-
-### Choice:
-- The example strip should be characteristic of the comic regarding format, drawing style and topic.
-
-### Technical:
-- format is JPEG
-- remove the not necessary surrounding parts of the strip
-- maximum width and height is 600 pixels
-- minimize the size (remove metadata/use proper compression/...)
-
-### Remarks:
-- ensure the text is legible when displayed in the smallest size in the app
+### Remark
+- Ensure that text is well readable when displayed in Daily Comics.
 
 
-Extraction script
------------------
+## Extraction script
+The script must be a file named `extract.js`.
 
-The script needs to be a file named _extract.js_
+This script is used to extract the current strip URL from the source as defined in the information.  
+The Javascript code needs to comprise a single function with a single parameter.  
+That function will be called with the content provided by the source URL.  
+It must to return a string containing an absolute or relative URL to the most recent strip.
 
-That script is used to extract the current strip url from the source as defined in the information.  
-The Javascript needs to consist of an unique function with a single parameter.  
-That function will be called in the application with the content of the source.  
-It needs to return a string containing an absolute or relative url to the current strip.
-
-Example
+#### Example
 ```
 function(page) {
     var regex = /<img[^>]*src="([^"]*\/wp-content\/uploads\/[^"]*)"/;
@@ -126,13 +109,13 @@ function(page) {
 }
 ```
 
+## Additional requirements
+- List in the git commit message which (re)source URLs were used for the cover and example strip.
+- Provide a higher resolution cover image ([1000x1000 px²](https://github.com/tardypad/sailfishos-daily-comics/pull/86#issuecomment-491614824)) in the comic's plugin folder with name `cover_big.jpg`.
+- Regenerate the comic covers grid with the `resources/generate_covers_grid.sh` shell script.
+- Regenerate the comics list with the `resources/generate_list.sh` shell script.
+- If necessary, update the prefixes to ignore for sorting comic names in the `Comic` class (¿where?, please specify) and in the `resources/generate_list.sh` script.
 
-Extras
-------
+## Note
+- Mind that a extracted comic strip proper can be in another format than JPEG, e.g. PNG or GIF (for animated comics).
 
-- list, in the git commit message, the resource urls used for the cover and example
-- keep higher resolution cover ([1000x1000 px²](https://github.com/tardypad/sailfishos-daily-comics/pull/86#issuecomment-491614824)) in the plugin folder with name _cover_big.jpg_
-- regenerate the comics covers grid with the _resources/generate_covers_grid.sh_ script
-- regenerate the comics list with the _resources/generate_list.sh_ script
-- if needed, update, in the _Comic_ class and in the _resources/generate_list.sh_ script,
-  the prefixes to ignore for the sorting of comics names
