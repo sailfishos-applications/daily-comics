@@ -111,22 +111,22 @@
 <context>
     <name>ComicsSettingsPage</name>
     <message>
-        <location filename="../qml/pages/ComicsSettingsPage.qml" line="34"/>
+        <location filename="../qml/pages/ComicsSettingsPage.qml" line="35"/>
         <source>Save</source>
         <translation>Save</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ComicsSettingsPage.qml" line="35"/>
+        <location filename="../qml/pages/ComicsSettingsPage.qml" line="36"/>
         <source>Cancel</source>
         <translation>Cancel</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ComicsSettingsPage.qml" line="53"/>
+        <location filename="../qml/pages/ComicsSettingsPage.qml" line="54"/>
         <source>Clear all</source>
         <translation>Clear all</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ComicsSettingsPage.qml" line="59"/>
+        <location filename="../qml/pages/ComicsSettingsPage.qml" line="60"/>
         <source>Select all</source>
         <translation>Select all</translation>
     </message>
