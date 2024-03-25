@@ -6,7 +6,8 @@ labels: 'new strip'
 ---
 
 **Daily Comics VERSION** (Daily Comics → [Top pulley] About): ***`<x.y.z>`***
-<br />
+
+*\<Please do name only a single new comic / cartoon in each "new strip" suggestion!\>*
 
 #### REQUIRED DATA
 - Name of the strip<br />
@@ -37,5 +38,5 @@ These are technically necessary to implement a new strip source in Daily Comics.
 Also providing this necessary data lowers the time and effort it takes to implement a new strip significantly.  Or provide a pull request (PR) for this new comic strip, adhering to [this guidance](../../info/comic_addition.md).
 
 #### ADDITIONAL INFORMATION
-*\<Please consider thoroughly which other pieces of information may be relevant.\>*
+*\<Please consider thoroughly which other pieces of information might be relevant.\>*
 
