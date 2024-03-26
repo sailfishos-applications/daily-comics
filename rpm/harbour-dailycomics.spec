@@ -47,7 +47,7 @@ BuildRequires:  pkgconfig(sailfishapp) >= 0.0.10
 BuildRequires:  desktop-file-utils
 
 %description
-Read your favourite comic strips every day
+Read your favourite comic strips every day.
 
 %if 0%{?_chum}
 Title: Daily Comics
