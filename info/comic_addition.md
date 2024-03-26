@@ -61,7 +61,7 @@ The cover image must be a file named `cover.jpg`.
 - The logo and the characters shall not overlap.
 - There should not be any other item shown than the logo and the main character(s).
 - Provide a strong contrast (colour and / or brightness) between the background colour to the logo and character.
-- The main character(s) is preferably shown in a characteristic attitude.
+- The main character(s) is preferably shown in a characteristic posture.
 - Do not use shadows or other visual effects (at all, especially for the main character(s) or logo).
 - Preferably no object is present with the character(s) (unless common for the comic or helping define the comic).
 - The logo should be adapted to contain only the necessary parts (no tagline, background, author name, copyright / trademarks signs etc.).
