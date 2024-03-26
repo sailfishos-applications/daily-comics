@@ -5,7 +5,7 @@ This documents the guidelines for adding a new comic plugin.
 A subfolder with a unique, well recognisable ("sounding") identifier name must be created in the `plugins` folder.
 This identifier must comprise only alphanumerical and lowercase characters.
 
-#### Example
+#### Example 1
 ```
 plugins/
   <comic-id-name>/
@@ -24,7 +24,7 @@ plugins/
 
 This information must be provided in a JSON file named `info.json`.
 
-#### Example
+#### Example 2
 ```
 {
   "name": "CommitStrip",                                 // Display name
@@ -91,7 +91,6 @@ The example must be a file named `example.jpg`.
 ### Remark
 - Ensure that text is well readable when displayed in Daily Comics.
 
-
 ## Extraction script
 The script must be a file named `extract.js`.
 
@@ -100,7 +99,7 @@ The Javascript code needs to comprise a single function with a single parameter.
 That function will be called with the content provided by the source URL.  
 It must return a string with an absolute or relative (to the `stripSource`) URL to the most recent strip.
 
-#### Example
+#### Example 3
 ```
 function(page) {
     var regex = /<img[^>]*src="([^"]*\/wp-content\/uploads\/[^"]*)"/;
@@ -114,8 +113,7 @@ function(page) {
 - Provide a higher resolution cover image ([1000x1000 px²](https://github.com/tardypad/sailfishos-daily-comics/pull/86#issuecomment-491614824)) in the comic's plugin folder with name `cover_big.jpg`.
 - Regenerate the comic covers grid with the `resources/generate_covers_grid.sh` shell script.
 - Regenerate the comics list with the `resources/generate_list.sh` shell script.
-- If necessary, update the prefixes to ignore for sorting comic names in the `Comic` class (*ToDo: ¿where?, please specify.*) and in the `resources/generate_list.sh` script.
+- If necessary, update the prefixes to ignore for sorting comic names in the `Comic` class (*ToDo: ¿Where?, please specify!*) and in the `resources/generate_list.sh` script.
 
 ## Note
 - Mind that a extracted comic strip proper can be in another format than JPEG, e.g. PNG or GIF (for animated comics).
-
