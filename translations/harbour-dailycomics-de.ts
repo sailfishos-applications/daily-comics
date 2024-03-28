@@ -1,12 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="de">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="de">
 <context>
     <name>AboutPage</name>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="63"/>
-        <source>Your daily fix of your favorite comic strips</source>
-        <translation>Die tägliche Dosis Comics</translation>
+        <source>Read your favourite comic strips every day.</source>
+        <translation>Lies deine Lieblingscomics jeden Tag.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="79"/>
@@ -111,22 +109,22 @@
 <context>
     <name>ComicsSettingsPage</name>
     <message>
-        <location filename="../qml/pages/ComicsSettingsPage.qml" line="34"/>
+        <location filename="../qml/pages/ComicsSettingsPage.qml" line="35"/>
         <source>Save</source>
         <translation>Speichern</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ComicsSettingsPage.qml" line="35"/>
+        <location filename="../qml/pages/ComicsSettingsPage.qml" line="36"/>
         <source>Cancel</source>
         <translation>Abbrechen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ComicsSettingsPage.qml" line="53"/>
+        <location filename="../qml/pages/ComicsSettingsPage.qml" line="54"/>
         <source>Clear all</source>
         <translation>Leeren</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ComicsSettingsPage.qml" line="59"/>
+        <location filename="../qml/pages/ComicsSettingsPage.qml" line="60"/>
         <source>Select all</source>
         <translation>Alle auswählen</translation>
     </message>
@@ -136,10 +134,7 @@
     <message numerus="yes">
         <location filename="../qml/cover/DefaultCover.qml" line="44"/>
         <source>%n new comic(s)</source>
-        <translation>
-            <numerusform>%n neues Comic</numerusform>
-            <numerusform>%n neue Comics</numerusform>
-        </translation>
+        <translation><numerusform>%n neues Comic</numerusform><numerusform>%n neue Comics</numerusform></translation>
     </message>
 </context>
 <context>
@@ -231,18 +226,12 @@
     <message numerus="yes">
         <location filename="../qml/utils/ProgressInfoBar.qml" line="72"/>
         <source>%n New</source>
-        <translation>
-            <numerusform>%n neu</numerusform>
-            <numerusform>%n neue</numerusform>
-        </translation>
+        <translation><numerusform>%n neu</numerusform><numerusform>%n neue</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/utils/ProgressInfoBar.qml" line="99"/>
         <source>%n Error(s)</source>
-        <translation>
-            <numerusform>%n Fehler</numerusform>
-            <numerusform>%n Fehler</numerusform>
-        </translation>
+        <translation><numerusform>%n Fehler</numerusform><numerusform>%n Fehler</numerusform></translation>
     </message>
 </context>
 <context>
