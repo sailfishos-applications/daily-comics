@@ -16,11 +16,11 @@ plugins/
 ```
 
 ## Required information
-- List of the authors (past / present, scenarist / cartoonist / etc.).
-- Homepage where to find more info about the comic.
-- Comic main representative colour (e.g. homepage colour, typical scenery colour, typical character colour).
-- Language used in the comic strips.
-- Source where to extract a link to the latest strip (e.g. RSS, API, URL).
+- List of authors (past / present, scenarist / cartoonist / etc.)
+- Homepage where to find more info about the comic
+- Comic main representative colour (e.g. homepage colour, typical scenery colour, typical character colour)
+- Language used in the comic strips
+- Source where to extract a link to the latest strip (e.g. RSS, API, URL)
 
 This information must be provided in a JSON file named `info.json`.
 
@@ -109,7 +109,7 @@ function(page) {
 ```
 
 ## Additional requirements
-- List in the git commit message which (re)source URLs were used for the cover and example strip.
+- Denote in the git commit message which (re)source URLs were used for the cover and example strip.
 - Provide a higher resolution cover image ([1000x1000 px²](https://github.com/tardypad/sailfishos-daily-comics/pull/86#issuecomment-491614824)) in the comic's plugin folder with name `cover_big.jpg`.
 - Regenerate the comic covers grid with the `resources/generate_covers_grid.sh` shell script.
 - Regenerate the comics list with the `resources/generate_list.sh` shell script.
