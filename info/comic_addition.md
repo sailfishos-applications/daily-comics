@@ -99,12 +99,36 @@ The Javascript code needs to comprise a single function with a single parameter.
 That function will be called with the content provided by the source URL.  
 It must return a string with an absolute or relative (to the `stripSource`) URL to the most recent strip.
 
-#### Example 3
+#### Examples 3, 4 and 5
 ```
 function(page) {
-    var regex = /<img[^>]*src=["']?([^ "']*\/wp-content\/uploads\/[^ "']*)/;
+    var regex = /<img[^>]*src="([^"]*\/wp-content\/uploads\/[^"]*)"/;
     var match = regex.exec(page);
     return match[1];
+}
+```
+```
+function(page) {
+    var regex = /class=["']?ABCD.*<img[^>]*src=["']?([^ "']*)/;
+    var match = regex.exec(page);
+    return match[1];
+}
+```
+```
+function(page) {
+    var regex = /<a\sclass="ga-tracking\sjs-episode\s+"(.|\s)+?href="([^"]+)"/
+    var match = regex.exec(page);
+    var url = "https://tapas.io" + match[2]
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", url , false);
+    xhr.send(null);
+    if(xhr.status === 200)
+    {
+        var newPage = xhr.responseText;
+        var regex2 = /<img\s*src="([^"]*)"\sclass="content__img"/
+        var match2 = regex2.exec(newPage);
+        return match2[1];
+    }
 }
 ```
 
