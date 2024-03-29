@@ -102,7 +102,7 @@ It must return a string with an absolute or relative (to the `stripSource`) URL 
 #### Example 3
 ```
 function(page) {
-    var regex = /<img[^>]*src="([^"]*\/wp-content\/uploads\/[^"]*)"/;
+    var regex = /<img[^>]*src="?([^ "]*\/wp-content\/uploads\/[^ "]*)/;
     var match = regex.exec(page);
     return match[1];
 }
