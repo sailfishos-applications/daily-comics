@@ -31,8 +31,8 @@ This information must be provided in a JSON file named `info.json`.
   "color": "2a3f6a",                                     // Colour in hexadecimal "HTML format"
   "language": "en",                                      // Language code
   "authors": [                                           //
-    "Etienne Issartial",                                 // List of authors
-    "Thomas Gx"                                          // or a single author (then omit the backets `[]`)
+    "Etienne Issartial",                                 // List of authors (may be a single one)
+    "Thomas Gx"                                          //
   ],                                                     //
   "homepage": "https://www.commitstrip.com/",            // Homepage URL
   "stripSource": "https://www.commitstrip.com/en/feed/"  // Source URL for extracting the most recent strip
