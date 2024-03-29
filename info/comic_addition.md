@@ -43,7 +43,7 @@ This information must be provided in a JSON file named `info.json`.
 The cover image must be a file named `cover.jpg`.
 
 ### Goal
-- The cover should be immediately recognisable when browsing the full list of comics.
+The cover should be immediately recognisable when browsing the full list of comics.
 
 ### Design
 - The cover image must be square (i.e. 1:1 aspect ratio).
@@ -89,7 +89,7 @@ The example strip should be characteristic of the comic with regard to format, d
 - Try to minimise the file size, e.g. by removing metadata, using an appropriate compression factor etc.
 
 ### Remark
-- Ensure that text is well readable when displayed in Daily Comics.
+Ensure that text is well readable when displayed in Daily Comics.
 
 ## Extraction script
 The script must be a file named `extract.js`.
