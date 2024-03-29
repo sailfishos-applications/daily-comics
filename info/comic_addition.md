@@ -1,5 +1,5 @@
 # Adding a new comic
-This documents the guidelines for adding a new comic plugin.
+This is a guideline for adding a new comic plugin.
 
 ## Structure
 A subfolder with a unique, well recognisable ("sounding") identifier name must be created in the `plugins` folder.
