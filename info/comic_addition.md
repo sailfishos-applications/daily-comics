@@ -17,8 +17,8 @@ plugins/
 
 ## Required information
 - List of authors (past / present, scenarist / cartoonist / etc.)
-- Homepage where to find more info about the comic
-- Comic main representative colour (e.g. homepage colour, typical scenery colour, typical character colour)
+- Homepage which provides more information about the comic
+- Comic main, representative colour (e.g. homepage colour, typical scenery colour, typical character colour)
 - Language used in the comic strips
 - Source where to extract a link to the latest strip (e.g. RSS, API, URL)
 
@@ -77,14 +77,14 @@ The cover image must be a file named `cover.jpg`.
 The example must be a file named `example.jpg`.
 
 ### Goal
-- The example strip should give users that do not know this comic an idea of its usual content.
+The example strip should give users that do not know this comic an idea of its usual content.
 
 ### Choice
-- The example strip should be characteristic of the comic with regard to format, drawing style and topic.
+The example strip should be characteristic of the comic with regard to format, drawing style and topic.
 
 ### Technical
 - The format is JPEG.
-- Remove the not necessary surrounding parts of the strip.
+- Remove unnecessary, surrounding parts (e.g. a frame) of the strip.
 - Maximum width and height is 600 pixels.
 - Try to minimise the file size, e.g. by removing metadata, using an appropriate compression factor etc.
 
@@ -116,4 +116,4 @@ function(page) {
 - If necessary, update the prefixes to ignore for sorting comic names in the `Comic` class (*ToDo: ¿Where?, please specify!*) and in the `resources/generate_list.sh` script.
 
 ## Note
-- Mind that a extracted comic strip proper can be in another format than JPEG, e.g. PNG or GIF (for animated comics).
+Mind that an extracted comic strip URL (rsp. the image proper) may use another format than JPEG, e.g. PNG or GIF (for animated comics).
