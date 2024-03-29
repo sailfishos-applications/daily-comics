@@ -14,7 +14,7 @@ labels: 'fix comic'
   ***\<name in Daily Comics\>***
 - Denote the URL of a source page which allows for extracting a URL of a single image of the most recent, published strip by a RegEx (see next bullet point).  This source page may be identical to the home-page of the comic.<br />
   ***\<URL\>***
-- An idea for a RegEx (regular expression), containing a sub-expression which exactly matches the image URL to be extracted from the content of the source page.<br />
+- An idea for a RegEx (regular expression), containing a sub-expression which exactly matches the image path (either as an full URL or a path relative to the source page URL from the prior bullet point) to be extracted from the content of the source page.<br />
   ***`<RegEx>`***
 - If such a single RegEx is not feasible, please design a JavaScript code snippet, which extracts the URL of the image of the most recent comic strip starting from the content retrieved via the URL provided in the second bullet point of this section "NECESSARY DATA".
   ```
