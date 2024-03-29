@@ -7,7 +7,7 @@ labels: 'fix comic'
 
 **Daily Comics VERSION** (Daily Comics → [Top pulley] About): ***`<x.y.z>`***
 
-*\<Please do name only a single comic / cartoon in each "fix comic" suggestion!\>*
+*\<Please do name only a single comic / cartoon in each "fix comic" suggestion!  The only exception is when a format change by comics provider affects multiple comics retrieved from this provider.\>*
 
 #### NECESSARY DATA
 - Name of the comic<br />
