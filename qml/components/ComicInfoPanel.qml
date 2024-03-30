@@ -128,8 +128,9 @@ DockedPanel {
                 asynchronous: true
 
                 width: parent.width
-                height: comicInfoPanel.height - (nameLabel.height + 5 * Theme.paddingMedium
-                        + authorsLabel.height + languageLabel.height)
+                height: comicInfoPanel.height - (nameHeaderLabel.height + authorsHeaderLabel.height
+                        + languageHeaderLabel.height + exampleImageHeaderLabel.height
+                        + 6 * Theme.paddingMedium)
 
                 anchors.horizontalCenter: parent.horizontalCenter
             }
