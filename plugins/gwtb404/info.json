@@ -1,10 +1,10 @@
 {
-  "name": "GWTB 404",
-  "color": "161616",
+  "name": "Gone with the Blastwave",
+  "color": "ddab4c",
   "language": "en",
   "authors": [
-    "Psyk323"
+    "Kimmo Lemetti (Morriperkele / Morr)"
   ],
-  "homepage": "http://404comic.com/",
-  "stripSource": "http://404comic.com/"
+  "homepage": "https://www.blastwave-comic.com/",
+  "stripSource": "https://www.blastwave-comic.com/"
 }
