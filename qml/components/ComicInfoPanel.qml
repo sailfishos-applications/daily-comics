@@ -108,7 +108,7 @@ DockedPanel {
             }
 
             Label {
-                id: exampleLabel
+                id: exampleImageHeaderLabel
                 text: qsTr("Example")
                 font {
                     italic: true
