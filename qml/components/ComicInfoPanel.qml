@@ -107,6 +107,19 @@ DockedPanel {
                 }
             }
 
+            Label {
+                id: exampleLabel
+                text: qsTr("Example")
+                font {
+                    italic: true
+                    pixelSize: Theme.fontSizeMedium
+                }
+                color: Theme.secondaryColor
+                width: parent.width
+                horizontalAlignment: Text.AlignHCenter
+                anchors.horizontalCenter: parent.horizontalCenter
+            }
+
             Image {
                 id: exampleImage
                 source: comic.id ? comic.examplePath : ''
