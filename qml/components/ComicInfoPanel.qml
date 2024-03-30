@@ -38,7 +38,7 @@ DockedPanel {
         onClicked: hide()
     }
 
-    // The content of his rectangle is very similar to ComicInfoPage.qml.
+    // The content of this rectangle is very similar to ComicInfoPage.qml:
     // One may consider to unify them.
     Rectangle {
         anchors.fill: parent
