@@ -1,6 +1,6 @@
 /**
  * Copyright (c) 2015 Damien Tardy-Panis <damien@tardypad.me>
- * Copyright (c) 2023 olf <Olf0@users.noreply.github.com>
+ * Copyright (c) 2023,2024 olf <Olf0@users.noreply.github.com>
  *
  * This file is subject to the terms and conditions defined in
  * file `LICENSE.txt`, which is part of this source code package.
@@ -19,10 +19,8 @@ DockedPanel {
     property bool isPortrait: (parent.isPortrait !== undefined) ? parent.isPortrait : true
     property alias homepageMenu: homepagePushUpMenu.visible
 
-    width: isPortrait ? parent.width : parent.height
-    height: isPortrait
-            ? infoColumn.height + 2*Theme.paddingMedium
-            : parent.height
+    width: isPortrait ? parent.width : 0.7 * parent.width
+    height: isPortrait ? 0.7 * parent.height : parent.height
     contentHeight: height
     dock: isPortrait ? Dock.Bottom : Dock.Right
 
@@ -40,6 +38,8 @@ DockedPanel {
         onClicked: hide()
     }
 
+    // The content of his rectangle is very similar to ComicInfoPage.qml.
+    // One may consider to unify them.
     Rectangle {
         anchors.fill: parent
         color: Theme.rgba(Theme.highlightDimmerColor, 0.9)
@@ -50,42 +50,51 @@ DockedPanel {
             anchors.centerIn: parent
             width: parent.width - 2 * Theme.paddingMedium
 
-            Label {
-                id: nameLabel
-                text: comic.name
-                width: parent.width
-                font.pixelSize: Theme.fontSizeMedium
-                horizontalAlignment: Text.AlignHCenter
-                anchors.horizontalCenter: parent.horizontalCenter
-            }
-
             Grid {
                 columns: 2
                 spacing: Theme.paddingMedium
 
                 Label {
-                    id: authorsHeaderLabel
-                    text: comic.authors.length > 1 ? qsTr("Authors") : qsTr("Author")
+                    id: nameHeaderLabel
+                    text: qsTr("Name") + " "
                     font {
                         italic: true
-                        pixelSize: Theme.fontSizeExtraSmall
+                        pixelSize: Theme.fontSizeMedium
+                    }
+                    color: Theme.secondaryColor
+                }
+
+                Label {
+                    id: nameLabel
+                    text: comic.name
+                    width: parent.width
+                    font.pixelSize: Theme.fontSizeMedium
+                    truncationMode: TruncationMode.Fade
+                }
+
+                Label {
+                    id: authorsHeaderLabel
+                    text: comic.authors.length > 1 ? qsTr("Authors")  + " " : qsTr("Author") + " "
+                    font {
+                        italic: true
+                        pixelSize: Theme.fontSizeMedium
                     }
                     color: Theme.secondaryColor
                 }
 
                 Label {
                     id: authorsLabel
-                    text: comic.authors.join("\n")
-                    font.pixelSize: Theme.fontSizeSmall
+                    text: comic.authors.join(", ")
+                    font.pixelSize: Theme.fontSizeMedium
                     truncationMode: TruncationMode.Fade
                 }
 
                 Label {
                     id: languageHeaderLabel
-                    text: qsTr("Language")
+                    text: qsTr("Language") + " "
                     font {
                         italic: true
-                        pixelSize: Theme.fontSizeExtraSmall
+                        pixelSize: Theme.fontSizeMedium
                     }
                     color: Theme.secondaryColor
                 }
@@ -93,7 +102,7 @@ DockedPanel {
                 Label {
                     id: languageLabel
                     text: comic.language
-                    font.pixelSize: Theme.fontSizeSmall
+                    font.pixelSize: Theme.fontSizeMedium
                     truncationMode: TruncationMode.Fade
                 }
             }
@@ -106,10 +115,8 @@ DockedPanel {
                 asynchronous: true
 
                 width: parent.width
-                height: isPortrait
-                        ? Math.min(window.height / 4, implicitHeight)
-                        : comicInfoPanel.height - (nameLabel.height + 7 * Theme.paddingMedium
-                          + authorsLabel.height + languageLabel.height)
+                height: comicInfoPanel.height - (nameLabel.height + 5 * Theme.paddingMedium
+                        + authorsLabel.height + languageLabel.height)
 
                 anchors.horizontalCenter: parent.horizontalCenter
             }
