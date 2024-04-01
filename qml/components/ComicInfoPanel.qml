@@ -48,7 +48,7 @@ DockedPanel {
             id: infoColumn
             spacing: Theme.paddingMedium
             anchors.centerIn: parent
-            width: parent.width - 2 * Theme.paddingMedium
+            width: parent.width - Theme.horizontalPageMargin
 
             Grid {
                 columns: 2
