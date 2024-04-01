@@ -35,30 +35,88 @@ Page {
 
     SilicaFlickable {
         anchors.fill: parent
-        contentHeight: column.height
+        contentHeight: infoColumn.height
 
+        PageHeader {
+            title: qsTr("Comic info")
+        }
+
+        // The content of this Column {} is very similar to the one in qml/components/ComicInfoPage.qml:
+        // One may consider to unify them as an own component, but that likely would have to be parametrised.
         Column {
-            id: column
+            id: infoColumn
+            spacing: Theme.paddingMedium
+            anchors.centerIn: parent
+            width: parent.width - 2 * Theme.paddingMedium
 
-            width: parent.width
+            Grid {
+                columns: 2
+                spacing: Theme.paddingMedium
 
-            PageHeader {
-                title: qsTr("Comic info")
+                Label {
+                    id: nameHeaderLabel
+                    text: qsTr("Name") + " "
+                    font {
+                        italic: true
+                        pixelSize: Theme.fontSizeMedium
+                    }
+                    color: Theme.secondaryColor
+                }
+
+                Label {
+                    id: nameLabel
+                    text: comic.name
+                    width: parent.width
+                    font.pixelSize: Theme.fontSizeMedium
+                    truncationMode: TruncationMode.Fade
+                }
+
+                Label {
+                    id: authorsHeaderLabel
+                    text: comic.authors.length > 1 ? qsTr("Authors")  + " " : qsTr("Author") + " "
+                    font {
+                        italic: true
+                        pixelSize: Theme.fontSizeMedium
+                    }
+                    color: Theme.secondaryColor
+                }
+
+                Label {
+                    id: authorsLabel
+                    text: comic.authors.join("\n")
+                    font.pixelSize: Theme.fontSizeMedium
+                    truncationMode: TruncationMode.Fade
+                }
+
+                Label {
+                    id: languageHeaderLabel
+                    text: qsTr("Language") + " "
+                    font {
+                        italic: true
+                        pixelSize: Theme.fontSizeMedium
+                    }
+                    color: Theme.secondaryColor
+                }
+
+                Label {
+                    id: languageLabel
+                    text: comic.language
+                    font.pixelSize: Theme.fontSizeMedium
+                    truncationMode: TruncationMode.Fade
+                }
             }
-            DetailItem {
-                id: nameHeaderLabel
-                label: qsTr("Name")
-                value: comic.name
-            }
-            DetailItem {
-                id: authorsHeaderLabel
-                label: comic.authors.length > 1 ? qsTr("Authors") : qsTr("Author")
-                value: comic.authors.join("\n")
-            }
-            DetailItem {
-                id: languageHeaderLabel
-                label: qsTr("Language")
-                value: comic.language
+
+            Label {
+                id: exampleImageHeaderLabel
+                text: qsTr("Example")
+                font {
+                    italic: true
+                    pixelSize: Theme.fontSizeMedium
+                }
+                color: Theme.secondaryColor
+                width: parent.width
+                horizontalAlignment: Text.AlignHCenter
+                anchors.horizontalCenter: parent.horizontalCenter
             }
 
             Image {
@@ -68,9 +126,20 @@ Page {
                 smooth: true
                 asynchronous: true
 
+                width: parent.width
+
                 anchors.horizontalCenter: parent.horizontalCenter
             }
         }
         VerticalScrollDecorator { }
+    }
+
+    PullDownMenu {
+        id: homepagePullDownMenu
+
+        MenuItem {
+            text: qsTr("Go to homepage")
+            onClicked: Qt.openUrlExternally(comic.homepage)
+        }
     }
 }
