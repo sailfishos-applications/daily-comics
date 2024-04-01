@@ -21,7 +21,7 @@ DockedPanel {
 
     width: isPortrait ? parent.width : 0.7 * parent.width
     height: isPortrait ? 0.7 * parent.height : parent.height
-    contentHeight: height - Theme.paddingMedium
+    contentHeight: height
     dock: isPortrait ? Dock.Bottom : Dock.Right
 
     function showComicInfo() {
@@ -49,10 +49,12 @@ DockedPanel {
             spacing: Theme.paddingMedium
             anchors.centerIn: parent
             width: parent.width - Theme.horizontalPageMargin
+            height: parent.height - Theme.verticalPageMargin
 
             Grid {
+                id: infoGrid
                 columns: 2
-                spacing: Theme.paddingMedium
+                spacing: infoColumn.spacing
 
                 Label {
                     id: nameHeaderLabel
@@ -128,11 +130,13 @@ DockedPanel {
                 asynchronous: true
 
                 width: parent.width
-                height: comicInfoPanel.height - (nameHeaderLabel.height + authorsHeaderLabel.height
-                        + languageHeaderLabel.height + exampleImageHeaderLabel.height
-                        + 6 * Theme.paddingMedium)
-
-                anchors.horizontalCenter: parent.horizontalCenter
+                height: infoColumn.height - (infoGrid.height + infoColumn.spacing
+                        + exampleImageHeaderLabel.height + exampleImage.anchors.topMargin)
+                anchors {
+                    top: exampleImageHeaderLabel.bottom
+                    topMargin: Theme.paddingSmall
+                    horizontalCenter: parent.horizontalCenter
+                }
             }
         }
 
