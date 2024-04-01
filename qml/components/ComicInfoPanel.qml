@@ -21,7 +21,7 @@ DockedPanel {
 
     width: isPortrait ? parent.width : 0.7 * parent.width
     height: isPortrait ? 0.7 * parent.height : parent.height
-    contentHeight: height
+    contentHeight: height - Theme.paddingMedium
     dock: isPortrait ? Dock.Bottom : Dock.Right
 
     function showComicInfo() {
