@@ -35,9 +35,10 @@ Page {
 
     SilicaFlickable {
         anchors.fill: parent
-        contentHeight: infoColumn.height
+        contentHeight: pageHeader.height + infoColumn.height + Theme.verticalPageMargin
 
         PageHeader {
+            id: pageHeader
             title: qsTr("Comic info")
         }
 
@@ -47,7 +48,7 @@ Page {
             id: infoColumn
             spacing: Theme.paddingMedium
             anchors.centerIn: parent
-            width: parent.width - 2 * Theme.paddingMedium
+            width: parent.width - Theme.horizontalPageMargin
 
             Grid {
                 columns: 2
