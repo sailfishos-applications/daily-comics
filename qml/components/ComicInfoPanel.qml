@@ -38,8 +38,8 @@ DockedPanel {
         onClicked: hide()
     }
 
-    // The content of this rectangle is very similar to ComicInfoPage.qml:
-    // One may consider to unify them.
+    // The content of this rectangle is very similar to the main content of qml/pages/ComicInfoPage.qml:
+    // One may consider to unify them as an own component, but that likely would have to be parametrised.
     Rectangle {
         anchors.fill: parent
         color: Theme.rgba(Theme.highlightDimmerColor, 0.9)
