@@ -39,11 +39,13 @@ Please file bug reports, feature suggestions and help requests in an [issue](htt
 
 ## Resources
 Some resources to find new comics
-- [GoComics](https://gocomics.com/)
-- [Tapastic](https://tapastic.com/)
-- [Comics Kingdom](https://comicskingdom.com/)
-- [WebToons](https://www.webtoons.com/)
-- [Reddit webcomics](https://www.reddit.com/r/webcomics/)
+- [Cartoon Movement](https://cartoonmovement.com/), extraction is [easy and researched](https://github.com/sailfishos-applications/daily-comics/pull/4#issuecomment-1742215566).
+- [GoComics](https://gocomics.com/), extraction is easy and researched ([example](https://github.com/sailfishos-applications/daily-comics/blob/devel/plugins/wizardofid/extract.js)).
+- [Reddit webcomics](https://www.reddit.com/r/webcomics/), but extraction requires some research, first.
+- [Press Cartoon Belgium](http://www.presscartoon.com/en/accueil), but extraction script [requires some research](https://github.com/sailfishos-applications/daily-comics/pull/4#issuecomment-1742215566), first.
+- [WebToons](https://www.webtoons.com/), but extraction script requires some research, if feasible at all.
+- [Tapas](https://tapas.io/), but extraction script [must be researched, is a bit complicated and triggers a minor Qt issue](https://github.com/tardypad/sailfishos-daily-comics/issues/89#issuecomment-596226840).
+- [Comics Kingdom](https://comicskingdom.com/), but extraction script [must be researched, is a bit complicated and triggers a minor Qt issue](https://github.com/sailfishos-applications/daily-comics/issues/46#issuecomment-2024214674).
 
 ## Translating Daily Comics (l10n / i18n)
 If you want to translate Daily Comics to a language it does not support yet or improve an extant translation, please [read the translations-README](./translations#readme).
