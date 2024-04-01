@@ -140,4 +140,4 @@ function(page) {
 - If necessary, update the prefixes to ignore for sorting comic names in the `Comic` class (*ToDo: ¿Where?, please specify!*) and in the `resources/generate_list.sh` script.
 
 ## Note
-Mind that an extracted comic strip URL (rsp. the image proper) may use another format than JPEG, e.g. PNG or GIF (for animated comics).
+Mind that an extracted comic strip URL (rsp. the image proper) may use another format than JPEG, e.g. PNG, WEBP or GIF (for animated comics), SVG etc.; for details see [[1]](https://doc.qt.io/qt-5/qimagereader.html#supportedImageFormats) and [[2]](https://doc.qt.io/qt-5/qtimageformats-index.html).
