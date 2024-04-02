@@ -21,7 +21,8 @@ DockedPanel {
 
     width: isPortrait ? parent.width : 0.7 * parent.width
     height: isPortrait ? 0.7 * parent.height : parent.height
-    contentHeight: height
+    contentHeight: height  // Appears to be not necessary; tested on SFOS 3.2.1, but may be required
+    contentWidth: width  // on Qt < 5.6.  Makes absolutely sure that content is not flickable.
     dock: isPortrait ? Dock.Bottom : Dock.Right
 
     function showComicInfo() {
@@ -46,10 +47,10 @@ DockedPanel {
         // One may consider to unify them as an own component, but that likely would have to be parametrised.
         Column {
             id: infoColumn
-            spacing: Theme.paddingMedium
+            spacing: Theme.paddingSmall
             anchors.centerIn: parent
             width: parent.width - Theme.horizontalPageMargin
-            height: parent.height - Theme.verticalPageMargin
+            // Column.height is actually determied by Image.heigth!
 
             Grid {
                 id: infoGrid
@@ -70,7 +71,7 @@ DockedPanel {
                     id: nameLabel
                     text: comic.name
                     width: parent.width
-                    font.pixelSize: Theme.fontSizeMedium
+                    font.pixelSize: nameHeaderLabel.font.pixelSize
                     truncationMode: TruncationMode.Fade
                 }
 
@@ -87,7 +88,7 @@ DockedPanel {
                 Label {
                     id: authorsLabel
                     text: comic.authors.join(", ")
-                    font.pixelSize: Theme.fontSizeMedium
+                    font.pixelSize: authorsHeaderLabel.font.pixelSize
                     truncationMode: TruncationMode.Fade
                 }
 
@@ -104,7 +105,7 @@ DockedPanel {
                 Label {
                     id: languageLabel
                     text: comic.language
-                    font.pixelSize: Theme.fontSizeMedium
+                    font.pixelSize: languageHeaderLabel.font.pixelSize
                     truncationMode: TruncationMode.Fade
                 }
             }
@@ -130,13 +131,11 @@ DockedPanel {
                 asynchronous: true
 
                 width: parent.width
-                height: infoColumn.height - (infoGrid.height + infoColumn.spacing
-                        + exampleImageHeaderLabel.height + exampleImage.anchors.topMargin)
-                anchors {
-                    top: exampleImageHeaderLabel.bottom
-                    topMargin: Theme.paddingSmall
-                    horizontalCenter: parent.horizontalCenter
-                }
+                height: comicInfoPanel.height - (nameHeaderLabel.height + authorsHeaderLabel.height
+                        + languageHeaderLabel.height + exampleImageHeaderLabel.height
+                        + 5 * infoColumn.spacing + 2 * Theme.paddingMedium)
+                verticalAlignment: Image.AlignTop
+                anchors.horizontalCenter: parent.horizontalCenter
             }
         }
 
