@@ -135,7 +135,8 @@ DockedPanel {
                     comicInfoPanel.height - (nameHeaderLabel.height + authorsHeaderLabel.height
                     + languageHeaderLabel.height + exampleImageHeaderLabel.height
                     + 5 * infoColumn.spacing + 2 * Theme.paddingMedium))
-                verticalAlignment: Image.AlignTop
+                verticalAlignment: Image.AlignTop  // This should have become superfluous by the Image.height
+                                                   // calculation via Math.min; still does no harm.
                 anchors.horizontalCenter: parent.horizontalCenter
             }
         }
