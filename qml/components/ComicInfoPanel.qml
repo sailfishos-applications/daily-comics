@@ -22,7 +22,7 @@ DockedPanel {
     width: isPortrait ? parent.width : 0.7 * parent.width
     height: isPortrait ? 0.7 * parent.height : parent.height
     contentHeight: height  // Appears to be not necessary; tested on SFOS 3.2.1, but may be required
-    contentWidth: width  // on Qt < 5.6.  Makes absolutely sure that content is not flickable.
+    contentWidth: width    // on Qt < 5.6.  Makes absolutely sure that content is not flickable.
     dock: isPortrait ? Dock.Bottom : Dock.Right
 
     function showComicInfo() {
