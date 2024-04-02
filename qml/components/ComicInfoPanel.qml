@@ -131,9 +131,10 @@ DockedPanel {
                 asynchronous: true
 
                 width: parent.width
-                height: comicInfoPanel.height - (nameHeaderLabel.height + authorsHeaderLabel.height
-                        + languageHeaderLabel.height + exampleImageHeaderLabel.height
-                        + 5 * infoColumn.spacing + 2 * Theme.paddingMedium)
+                height: Math.min ((width * implicitHeight) / implicitWidth,
+                    comicInfoPanel.height - (nameHeaderLabel.height + authorsHeaderLabel.height
+                    + languageHeaderLabel.height + exampleImageHeaderLabel.height
+                    + 5 * infoColumn.spacing + 2 * Theme.paddingMedium))
                 verticalAlignment: Image.AlignTop
                 anchors.horizontalCenter: parent.horizontalCenter
             }
