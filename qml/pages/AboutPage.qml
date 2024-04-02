@@ -19,7 +19,7 @@ Page {
         anchors.fill: parent
 
         contentWidth: parent.width;
-        contentHeight: pageHeader.height + contentColumn.height + Theme.verticalPageMargin
+        contentHeight: pageHeader.height + contentColumn.height + Theme.paddingLarge
 
         flickableDirection: Flickable.VerticalFlick
 
@@ -35,101 +35,102 @@ Page {
                 top: pageHeader.bottom
                 horizontalCenter: parent.horizontalCenter
             }
-            width: parent.width - Theme.horizontalPageMargin
+            width: parent.width
 
-            Rectangle {
-                color: "transparent"
-                width: parent.width
-                // This does not work as intended with `fillMode: Image.PreserveAspectFit`:
-                // Image is not scaled up to its `width: parent.width`!
-                height: childrenRect.height
-                Image {
-                    id: coverImage
-                    source: Qt.resolvedUrl("../../images/harbour-cover.png")
-                    fillMode: Image.PreserveAspectFit
-                    smooth: true
-                    clip: true
-                    asynchronous: true
-                    width: parent.width
-                    Layout.fillWidth: true
-                    anchors.horizontalCenter: parent.horizontalCenter
+            Image {
+                id: coverImage
+                source: Qt.resolvedUrl("../../images/harbour-cover.png")
+                fillMode: Image.PreserveAspectFit
+                smooth: true
+                clip: true
+                asynchronous: true
+                width: isPortrait ? Math.max (parent.width / 2, implicitWidth) : Math.max (parent.width / 3, implicitWidth)
+                height: (width * implicitHeight) / implicitWidth
+                anchors {
+                    top: contentColumn.top
+                    topMargin: 0  // … or Theme.paddingSmall
+                    horizontalCenter: parent.horizontalCenter
                 }
+             }
 
-                Label {
-                    id: topText
-                    anchors {
-                        top: coverImage.bottom
-                        topMargin: Theme.paddingSmall
-                        horizontalCenter: parent.horizontalCenter
-                    }
-                    width: parent.width
-                    text: qsTr("Read your favourite comic strips every day.")
-                    font {
-                        italic: true
-                        pixelSize: Theme.fontSizeSmall
-                    }
-                    horizontalAlignment: Text.AlignHCenter
+            Label {
+                id: topText
+                anchors {
+                    top: coverImage.bottom
+                    topMargin: Theme.paddingSmall
+                    horizontalCenter: parent.horizontalCenter
                 }
-
-                Label {
-                    id: versionLabel
-                    anchors {
-                        top: topText.bottom
-                        topMargin: Theme.paddingMedium
-                        horizontalCenter: parent.horizontalCenter
-                    }
-                    width: parent.width
-                    text: qsTr("Version %1").arg(Qt.application.version)
-                    font.pixelSize: Theme.fontSizeMedium
-                    horizontalAlignment: Text.AlignHCenter
+                width: parent.width - Theme.horizontalPageMargin
+                text: qsTr("Read your favourite comic strips every day.")
+                font {
+                    italic: true
+                    pixelSize: Theme.fontSizeSmall
                 }
+                wrapMode: Text.WordWrap
+                horizontalAlignment: Text.AlignHCenter
+            }
 
-                Label {
-                    id: codeLabel
-                    anchors {
-                        top: versionLabel.bottom
-                        topMargin: Theme.paddingLarge
-                        horizontalCenter: parent.horizontalCenter
-                    }
-                    width: parent.width
-                    text: qsTr("<a href=\"%1\">Source code repository</a>").arg(constants.repoGithub)
-                    font.pixelSize: Theme.fontSizeMedium
-                    horizontalAlignment: Text.AlignHCenter
-                    linkColor: Theme.highlightColor
-                    onLinkActivated: Qt.openUrlExternally(link)
+            Label {
+                id: versionLabel
+                anchors {
+                    top: topText.bottom
+                    topMargin: Theme.paddingMedium
+                    horizontalCenter: parent.horizontalCenter
                 }
+                width: parent.width - Theme.horizontalPageMargin
+                text: qsTr("Version %1").arg(Qt.application.version)
+                font.pixelSize: Theme.fontSizeMedium
+                wrapMode: Text.WordWrap
+                horizontalAlignment: Text.AlignHCenter
+            }
 
-                Label {
-                    id: licenseLabel
-                    anchors {
-                        top: codeLabel.bottom
-                        topMargin: Theme.paddingMedium
-                        horizontalCenter: parent.horizontalCenter
-                    }
-                    width: parent.width
-                    text: qsTr("License: %1").arg("MIT")
-                    font.pixelSize: Theme.fontSizeMedium
-                    horizontalAlignment: Text.AlignHCenter
+            Label {
+                id: codeLabel
+                anchors {
+                    top: versionLabel.bottom
+                    topMargin: Theme.paddingLarge
+                    horizontalCenter: parent.horizontalCenter
                 }
+                width: parent.width - Theme.horizontalPageMargin
+                text: qsTr("<a href=\"%1\">Source code repository</a>").arg(constants.repoGithub)
+                font.pixelSize: Theme.fontSizeMedium
+                wrapMode: Text.WordWrap
+                horizontalAlignment: Text.AlignHCenter
+                linkColor: Theme.highlightColor
+                onLinkActivated: Qt.openUrlExternally(link)
+            }
 
-                Label {
-                    id: issuesLabel
-                    anchors {
-                        top: licenseLabel.bottom
-                        topMargin: Theme.paddingLarge
-                        horizontalCenter: parent.horizontalCenter
-                    }
-                    width: parent.width
-                    wrapMode: Text.WordWrap
-                    text: qsTr("<a href=\"%1\">Issue tracker for bug reports, feature suggestions and help requests</a>").arg(constants.issuesGithub)
-                    font.pixelSize: Theme.fontSizeMedium
-                    horizontalAlignment: Text.AlignHCenter
-                    linkColor: Theme.highlightColor
-                    onLinkActivated: Qt.openUrlExternally(link)
+            Label {
+                id: licenseLabel
+                anchors {
+                    top: codeLabel.bottom
+                    topMargin: Theme.paddingMedium
+                    horizontalCenter: parent.horizontalCenter
                 }
+                width: parent.width - Theme.horizontalPageMargin
+                text: qsTr("License: %1").arg("MIT")
+                font.pixelSize: Theme.fontSizeMedium
+                wrapMode: Text.WordWrap
+                horizontalAlignment: Text.AlignHCenter
+            }
 
+            Label {
+                id: issuesLabel
+                anchors {
+                    top: licenseLabel.bottom
+                    topMargin: Theme.paddingLarge
+                    horizontalCenter: parent.horizontalCenter
+                }
+                width: parent.width - Theme.horizontalPageMargin
+                text: qsTr("<a href=\"%1\">Issue tracker for bug reports, feature suggestions and help requests</a>").arg(constants.issuesGithub)
+                font.pixelSize: Theme.fontSizeMedium
+                wrapMode: Text.WordWrap
+                horizontalAlignment: Text.AlignHCenter
+                linkColor: Theme.highlightColor
+                onLinkActivated: Qt.openUrlExternally(link)
             }
 
         }
+
     }
 }
