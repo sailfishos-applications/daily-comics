@@ -50,7 +50,7 @@ DockedPanel {
             spacing: Theme.paddingSmall
             anchors.centerIn: parent
             width: parent.width - Theme.horizontalPageMargin
-            // Column.height is actually determied by Image.heigth!
+            // Column.height is actually determied by Image.height!
 
             Grid {
                 id: infoGrid
