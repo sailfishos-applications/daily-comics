@@ -83,7 +83,7 @@ If you want to translate Daily Comics to a language it does not support yet or i
 
 ## Licenses
 The source code of Daily Comics (i.e. all code in this source code repository) is released under the classic MIT license (see the [LICENSE](./LICENSE.txt) file).
-Application specific graphics (icons etc.) are released under the [Creative Commons Attribution license (CC BY)](https://creativecommons.org/licenses/by/4.0/deed.en).
+Application specific graphics (icons etc.) are released under the [Creative Commons Attribution license (CC-BY)](https://creativecommons.org/licenses/by/4.0/deed.en).
 
 Canonical references for the MIT license:
 - https://spdx.org/licenses/MIT.html
