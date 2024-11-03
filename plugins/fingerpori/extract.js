@@ -1,5 +1,5 @@
 function(page) {
-    var regex = /<img[^>]*srcset="(\/\/hs.mediadelivery.fi\/img\/[^ ]*) /;
+    var regex = /<img[^>]+srcset="(\/\/[^ "]+)/;
     var match = regex.exec(page);
-    return match[1];
+    return "https:" + match[1];
 }
