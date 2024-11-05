@@ -1,7 +1,7 @@
 function(page) {
-    var regex = /data-image="[^"]*\/([^"\/]*).jpg"/;
+    var regex = /<img\s+class="diks-card__image"\s+src="([^"]+)/;
     var match = regex.exec(page);
-    var hash = match[1]
+    var hash = match[1];
 
-    return "http://is.mediadelivery.fi/img/1920/" + hash + ".jpg";
+    return hash.replace(/FREE_\d+/,"FREE");
 }

@@ -1,0 +1,10 @@
+{
+  "name": "The Far Side",
+  "color": "ffffff",
+  "language": "en",
+  "authors": [
+    "Gary Larson"
+  ],
+  "homepage": "https://www.thefarside.com/about",
+  "stripSource": "https://www.thefarside.com/"
+}
