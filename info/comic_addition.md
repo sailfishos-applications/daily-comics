@@ -54,7 +54,7 @@ The cover should be immediately recognisable when browsing the full list of comi
 ### Technical
 - The format is JPEG.
 - Size is 300x300 pixels.
-- Try to minimise the file size, e.g. by removing metadata, using an appropriate compression factor etc.
+- Try to minimise the file size, e.g. by removing metadata, using an appropriate compression factor (e.g. JPEG-quality: 90%; less usually creates compression artefacts, more just makes the file larger without visible improvement), etc.
 
 ### Remarks
 - Ensure text (especially the comic's name / logo) is well readable when displayed in the settings page of Daily Comics.
@@ -86,7 +86,7 @@ The example strip should be characteristic of the comic with regard to format, d
 - The format is JPEG.
 - Remove unnecessary, surrounding parts (e.g. a frame) of the strip.
 - Maximum width and height is 600 pixels.
-- Try to minimise the file size, e.g. by removing metadata, using an appropriate compression factor etc.
+- Try to minimise the file size, e.g. by removing metadata, using an appropriate compression factor (e.g. JPEG-quality: 90%; less usually creates compression artefacts, more just makes the file larger without visible improvement), etc.
 
 ### Remark
 Ensure that text is well readable when displayed in Daily Comics.
