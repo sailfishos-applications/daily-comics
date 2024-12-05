@@ -1,0 +1,12 @@
+{
+  "name": "Harald Hirmuinen",
+  "color": "e7c5aa",
+  "language": "fi",
+  "authors": [
+      // These are reruns of strips by either of these, both have passed on
+      "Dik Browne",
+      "Chris Browne"
+  ],
+  "homepage": "https://www.hs.fi/haraldhirmuinen/",
+  "stripSource": "https://www.hs.fi/haraldhirmuinen/"
+}

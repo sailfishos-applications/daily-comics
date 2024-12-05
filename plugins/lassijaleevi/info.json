@@ -1,0 +1,10 @@
+{
+  "name": "Lassi ja Leevi",
+  "color": "ec1d23",
+  "language": "fi",
+  "authors": [
+    "Bill Watterson"
+  ],
+  "homepage": "https://fi.wikipedia.org/wiki/Lassi_ja_Leevi",
+  "stripSource": "https://www.hs.fi/lassijaleevi/"
+}

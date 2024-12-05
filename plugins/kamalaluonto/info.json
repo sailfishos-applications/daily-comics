@@ -3,8 +3,9 @@
   "color": "c48a4b",
   "language": "fi",
   "authors": [
-    "Jarkko Vehniäisen"
+    "Jarkko Vehniänen",
+    "Marja Lappalainen"
   ],
-  "homepage": "http://kamalaluonto.com/",
-  "stripSource": "http://www.iltasanomat.fi/kamalaluonto/"
+  "homepage": "https://kamalaluonto.fi/",
+  "stripSource": "https://www.ksml.fi/aihe/Kamala_luonto"
 }

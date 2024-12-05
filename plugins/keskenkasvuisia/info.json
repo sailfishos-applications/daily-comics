@@ -1,0 +1,11 @@
+{
+  "name": "Keskenkasvuisia",
+  "color": "7eb97f",
+  "language": "fi",
+  "authors": [
+      "Aurora Raiskinen",
+      "Jyrki Vainio"
+  ],
+  "homepage": "https://www.hs.fi/sarjakuvat/keskenkasvuisia/",
+  "stripSource": "https://www.hs.fi/sarjakuvat/keskenkasvuisia/"
+}
