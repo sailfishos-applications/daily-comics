@@ -67,20 +67,21 @@ If you want to translate Daily Comics to a language it does not support yet or i
 - [2019](https://github.com/sailfishos-applications/daily-comics/commits?author=sthocs) sthocs ([sthocs](https://github.com/sthocs))
 - [2019](https://github.com/sailfishos-applications/daily-comics/commit/f28be7cf1d112f9e48bf853ad032f8f6f9a622c8) dryo
 - [2020](https://github.com/sailfishos-applications/daily-comics/commit/47a83f15c3c43ac189cd31ea327e98cad19addb3) Joni Korhonen
-- [2020,2023](https://github.com/sailfishos-applications/daily-comics/commits?author=Olf0) olf ([Olf0](https://github.com/Olf0))
-- [2024](https://github.com/sailfishos-applications/daily-comics/commits?author=ExTechOp) Otto ([ExTechOp](https://github.com/ExTechOp))
+- [2020,2023-2025](https://github.com/sailfishos-applications/daily-comics/commits?author=Olf0) olf ([Olf0](https://github.com/Olf0))
+- [2024,2025](https://github.com/sailfishos-applications/daily-comics/commits?author=ExTechOp) Otto ([ExTechOp](https://github.com/ExTechOp))
 
 ### Translations
 - [`de`](https://app.transifex.com/olf/daily-comics/language/de/)
   - [2016,2019,2024](https://github.com/sailfishos-applications/daily-comics/commits?author=cnlpete) Hauke Schade ([cnlpete](https://github.com/cnlpete))
   - [2020](https://github.com/sailfishos-applications/daily-comics/commits?author=ichthyosaurus) Mirian Margiani ([ichthyosaurus](https://github.com/ichthyosaurus))
-  - [2023](https://github.com/sailfishos-applications/daily-comics/commits?author=Olf0) olf ([Olf0](https://github.com/Olf0))
+  - [2023,2024](https://github.com/sailfishos-applications/daily-comics/commits?author=transifex-integration%5Bbot%5D) olf ([Olf0](https://github.com/Olf0))
 - [`fr`](https://app.transifex.com/olf/daily-comics/language/fr/)
   - [2018,2019](https://github.com/sailfishos-applications/daily-comics/commits?author=lutinotmalin) [lutinotmalin](https://github.com/lutinotmalin)
 - [`nl`](https://app.transifex.com/olf/daily-comics/language/nl/)
   - [2017](https://github.com/tardypad/sailfishos-daily-comics/pull/35) *\<Unknown\>*
 - [`sv`](https://app.transifex.com/olf/daily-comics/language/sv/)
   - [2018](https://github.com/sailfishos-applications/daily-comics/commit/dfd23fb435a846fe5776a440669d92fe2eb5c39d) Erik Lundin
+  - [2024](https://github.com/sailfishos-applications/daily-comics/commits?author=transifex-integration%5Bbot%5D) Åke Engelbrektson (eson / [eson57](https://github.com/eson57))
 
 ## Licenses
 The source code of Daily Comics (i.e. all code in this source code repository) is released under the classic MIT license (see the [LICENSE](./LICENSE.txt) file).
