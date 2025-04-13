@@ -135,9 +135,10 @@ function(page) {
 ## Additional requirements
 - Denote in the git commit message which (re)source URLs were used for the cover and example strip.
 - Provide a higher resolution cover image ([1000x1000 px²](https://github.com/tardypad/sailfishos-daily-comics/pull/86#issuecomment-491614824)) in the comic's plugin folder with name `cover_big.jpg`.
-- Regenerate the comic covers grid with the `resources/generate_covers_grid.sh` shell script.
-- Regenerate the comics list with the `resources/generate_list.sh` shell script.
-- If necessary, update the prefixes to ignore for sorting comic names in the `Comic` class (*ToDo: ¿Where?, please specify!*) and in the `resources/generate_list.sh` script.
+- For keeping "original graphic material" (i.e. not format-converted or scaled, but [freed of](#technical-1) author names, copyright notices, superfluous graphic elements etc.) for cover and example images, please commit such image files to [`.xdata/plugins`](https://github.com/sailfishos-applications/daily-comics/tree/devel/.xdata/plugins), because of [issue \#65](https://github.com/sailfishos-applications/daily-comics/issues/65).
+- Regenerate [the comic covers](https://github.com/sailfishos-applications/daily-comics/blob/devel/info/comics_covers.jpg) grid with the `resources/generate_covers_grid.sh` shell script.
+- Regenerate [the comics list](https://github.com/sailfishos-applications/daily-comics/blob/devel/info/comics_list.md) with the `resources/generate_list.sh` shell script.
+- If necessary, update the prefixes to ignore for sorting comic names [in the `Comic` class and in the `resources/generate_list.sh` script](https://github.com/sailfishos-applications/daily-comics/pull/63/files).
 
 ## Note
 Mind that an extracted comic strip URL (rsp. the image proper) may use another format than JPEG, e.g. PNG, WEBP or GIF (for animated comics), SVG etc.; for details see [[1]](https://doc.qt.io/qt-5/qimagereader.html#supportedImageFormats) and [[2]](https://doc.qt.io/qt-5/qtimageformats-index.html).
