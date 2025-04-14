@@ -33,7 +33,7 @@ Copyright (c) 2020 Joni Korhonen, see
 https://github.com/sailfishos-applications/daily-comics/commit/47a83f15c3c43ac189cd31ea327e98cad19addb3
 Copyright (c) 2020,2023-2025 olf <Olf0@users.noreply.github.com>,
 see https://github.com/sailfishos-applications/daily-comics/commits?author=Olf0
-Copyright (c) 2024,2025 ExTechOp <ExTechOp@users.noreply.github.com>,
+Copyright (c) 2024,2025 Otto Mäkelä <ExTechOp@users.noreply.github.com>,
 see https://github.com/sailfishos-applications/daily-comics/commits?author=ExTechOp
 
 Translations
