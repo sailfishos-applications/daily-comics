@@ -39,10 +39,12 @@ see https://github.com/sailfishos-applications/daily-comics/commits?author=ExTec
 Translations
 - [de]:
   Copyright (c) 2016,2019,2024 Hauke Schade <cnlpete@users.noreply.github.com>, see
-  https://github.com/sailfishos-applications/daily-comics/commits?author=cnlpete
+  https://github.com/sailfishos-applications/daily-comics/commits?author=cnlpete and
+  https://github.com/sailfishos-applications/daily-comics/commits?author=transifex-integration%5Bbot%5D
   Copyright (c) 2020 Mirian Margiani <ichthyosaurus@users.noreply.github.com>, see
   https://github.com/sailfishos-applications/daily-comics/commits?author=ichthyosaurus
-  Copyright (c) 2023,2024 olf <Olf0@users.noreply.github.com>, see
+  Copyright (c) 2023 olf <Olf0@users.noreply.github.com>, see
+  https://github.com/sailfishos-applications/daily-comics/commits?author=Olf0 and
   https://github.com/sailfishos-applications/daily-comics/commits?author=transifex-integration%5Bbot%5D
 - [fr]:
   Copyright (c) 2018,2019 lutinotmalin <lutinotmalin@users.noreply.github.com>, see
