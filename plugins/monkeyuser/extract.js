@@ -1,5 +1,5 @@
 function(page) {
-    var regex = /src=&quot;([^&]*\/assets\/images\/[^&]*)&quot;/;
+    var regex = /<img [^>]*src=(\/\d{4}\/[^ >]+)/;
     var match = regex.exec(page);
     return match[1];
 }
