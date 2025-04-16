@@ -35,6 +35,8 @@ Copyright (c) 2020,2023-2025 olf <Olf0@users.noreply.github.com>,
 see https://github.com/sailfishos-applications/daily-comics/commits?author=Olf0
 Copyright (c) 2024,2025 Otto Mäkelä <ExTechOp@users.noreply.github.com>,
 see https://github.com/sailfishos-applications/daily-comics/commits?author=ExTechOp
+Copyright (c) 2025 Frank Fischer <f-fr@users.noreply.github.com>,
+see https://github.com/sailfishos-applications/daily-comics/commits?author=f-fr
 
 Translations
 - [de]:
