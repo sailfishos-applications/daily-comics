@@ -69,6 +69,7 @@ If you want to translate Daily Comics to a language it does not support yet or i
 - [2020](https://github.com/sailfishos-applications/daily-comics/commit/47a83f15c3c43ac189cd31ea327e98cad19addb3) Joni Korhonen
 - [2020,2023-2025](https://github.com/sailfishos-applications/daily-comics/commits?author=Olf0) olf ([Olf0](https://github.com/Olf0))
 - [2024,2025](https://github.com/sailfishos-applications/daily-comics/commits?author=ExTechOp) Otto ([ExTechOp](https://github.com/ExTechOp))
+- [2025](https://github.com/sailfishos-applications/daily-comics/commits?author=f-fr) Frank Fischer ([f-fr](https://github.com/f-fr))
 
 ### Translations
 - [`de`](https://app.transifex.com/olf/daily-comics/language/de/)
