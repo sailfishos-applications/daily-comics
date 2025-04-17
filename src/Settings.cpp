@@ -70,7 +70,7 @@ void Settings::hideNewSlideshowFlickHint()
 QUrl Settings::getUpdaterUrl() const
 {
     return m_settings->value("updater/url",
-        "https://raw.githubusercontent.com/tardypad/sailfishos-daily-comics/master/plugins/update.json").toUrl();
+        "https://raw.githubusercontent.com/sailfishos-applications/daily-comics/master/plugins/update.json").toUrl();
 }
 
 QVariant Settings::value(const QString &key)
