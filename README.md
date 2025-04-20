@@ -16,7 +16,7 @@
 - Provides comics and cartoons in various languages
 - Covers a multitude of topics and styles
 
-## Screenshots of Daily Comics
+### Screenshots of Daily Comics
 |       |       |       |
 | :---: | :---: | :---: |
 |       |       |       |
@@ -28,7 +28,7 @@
 | Zoom strip | Select favorites | App cover |
 |       |       |       |
 
-## Info
+## Information
 ![Comics covers](./info/comics_covers.jpg?raw=true "Comics covers")
 
 ### Comics available
