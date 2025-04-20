@@ -31,13 +31,16 @@
 ## Info
 ![Comics covers](./info/comics_covers.jpg?raw=true "Comics covers")
 
+### Comics available
 The [comics list](https://github.com/sailfishos-applications/daily-comics/blob/master/info/comics_list.md) shows the currently supported comics.
 
-If you want some additional comics or cartoons to be supported by Daily Comics, please check the [guidelines](./info/comic_addition.md) and open a Pull Request.
-
+### Issues with specific comics or Daily Comics proper
 Please file bug reports, feature suggestions and help requests in an [issue](https://github.com/sailfishos-applications/daily-comics/issues), after having ensured, that this is not already covered by an existing issue.
 
-## Resources
+### Adding comics
+If you want some additional comics or cartoons to be supported by Daily Comics, please open a Pull Request and adhere to the [guidelines](./info/comic_addition.md).
+
+### Resources
 Some resources to find new comics
 - [Cartoon Movement](https://cartoonmovement.com/), extraction is [easy and researched](https://github.com/sailfishos-applications/daily-comics/pull/4#issuecomment-1742215566).
 - [GoComics](https://gocomics.com/), extraction is easy and researched ([example](https://github.com/sailfishos-applications/daily-comics/blob/devel/plugins/wizardofid/extract.js)).
@@ -47,7 +50,7 @@ Some resources to find new comics
 - [Tapas](https://tapas.io/), but extraction script [must be researched, is a bit complicated and triggers a minor Qt issue](https://github.com/tardypad/sailfishos-daily-comics/issues/89#issuecomment-596226840).
 - [Comics Kingdom](https://comicskingdom.com/), but extraction script [must be researched, is a bit complicated and triggers a minor Qt issue](https://github.com/sailfishos-applications/daily-comics/issues/46#issuecomment-2024214674).
 
-## Translating Daily Comics (l10n / i18n)
+### Translating Daily Comics (l10n / i18n)
 If you want to translate Daily Comics to a language it does not support yet or improve an extant translation, please [read the translations-README](./translations#readme).
 
 ## Contributors
