@@ -20,11 +20,11 @@
 |       |       |       |
 | :---: | :---: | :---: |
 |       |       |       |
-| ![Favorite comics](./info/screenshots/favorites.png?raw=true) | ![View strip](./info/screenshots/comic_bar.png?raw=true) | ![Comic info](./info/screenshots/comic_info.png?raw=true) |
+| ![Favorite comics](./info/screenshots/favorites.png?raw=true "Favorite comics") | ![View strip](./info/screenshots/comic_bar.png?raw=true "View strip") | ![Comic info](./info/screenshots/comic_info.png?raw=true "Comic info") |
 | Favorite&nbsp;comics | &nbsp;&nbsp;&nbsp;&nbsp;View&nbsp;strip&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;Comic&nbsp;info&nbsp;&nbsp;&nbsp;&nbsp; |
 |       |       |       |
 |       |       |       |
-| ![Zoom strip](./info/screenshots/image_zoom.png?raw=true) | ![Select favorites](./info/screenshots/settings.png?raw=true) | ![App cover](./info/screenshots/cover.png?raw=true) |
+| ![Zoom strip](./info/screenshots/image_zoom.png?raw=true "Zoom strip") | ![Select favorites](./info/screenshots/settings.png?raw=true "Select favorites") | ![App cover](./info/screenshots/cover.png?raw=true "App cover") |
 | Zoom strip | Select favorites | App cover |
 |       |       |       |
 
