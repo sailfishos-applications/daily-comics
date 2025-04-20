@@ -29,7 +29,7 @@
 |       |       |       |
 
 ## Information
-![Comics covers](./info/comics_covers.jpg?raw=true "Comics covers")
+![Comics covers](https://github.com/sailfishos-applications/daily-comics/blob/master/info/comics_covers.jpg?raw=true "Comics covers")
 
 ### Comics available
 The [comics list](https://github.com/sailfishos-applications/daily-comics/blob/master/info/comics_list.md) shows the currently supported comics.
