@@ -1,61 +1,57 @@
 - The Adventures of Business Cat
 - Ahistaa
 - Andy Capp
-- Une année au lycée
 - Anonyymit Eläimet
 - The Awkward Yeti
-- bash.im
+- Back to B.C.
 - Beetle Bailey
 - Berkeley Mews
-- Bloom County 2015
+- Bizarro
+- Bloom County
 - The Boondocks
 - Buni
-- Calvin and Hobbes
 - C. Cassandra
-- Chattanooga Times
+- Calvin and Hobbes
+- Chattanooga Times Free Press
 - Cheer Up, Emo Kid
-- Clay Bennett
 - CommitStrip
 - Cul de Sac
 - Cyanide & Happiness
 - Darths and Droids
 - Deathbulge
 - Dennis The Menace
-- Der Flix
 - Diesel Sweeties
 - Dinosaur Comics
 - Dirkjan
-- Donald Duck
-- Einbilder
-- emoticomix
-- Extra Fabulous Comics
 - Extra Ordinary
-- Fingerpori
 - F Minus
+- Fingerpori
+- Der Flix
 - Fok_it
 - Fokke en Sukke
 - Fowl Language Comics
 - FoxTrot
 - Fred Basset
 - Fuchskind
-- The GaMERCaT
 - Garfield
-- Gone With The Blastwave
-- GWTB 404
-- Hägar the Horrible
+- Gone with the Blastwave (GTWB)
 - HTZ comic
+- Harald Hirmuinen
+- Hägar the Horrible
 - Introvert Doodles
 - Is lieb?
 - Jäätävä Spede
 - Kamala Luonto
+- Keskenkasvuisia
+- Kevin and Kell
+- LOLNEIN
+- Lassi ja Leevi
+- Lectrr
 - Living with Hipstergirl and Gamergirl
 - Liz Climo
 - Loading Artist
-- LOLNEIN
 - Lunarbaboon
 - Lunch
-- Lupo Alberto
-- Martin Perscheid
 - Monkey User
 - Mutts
 - Nameless PCs
@@ -68,27 +64,33 @@
 - Poorly Drawn Lines
 - Pöyrööt
 - Questionable Content
+- SPIEGEL
 - Safely Endangered
 - Sarah's Scribbles
 - Saturday Morning Breakfast Cereal
 - Savage Chickens
+- Schot
+- Sequential Art
 - Shit happens!
 - Sigmund
 - Sinfest
-- SPIEGEL
 - Swamp
 - They can talk
 - Things in Squares
+- Tjeerd Royaards
 - Um Sábado Qualquer
 - The Very Near Future
 - Vida de Programador
 - Vida de Suporte
+- Viivi and Wagner
 - Viivi ja Wagner
+- War and Peas
 - What a wonderful world!
 - The Whiteboard
-- War and Peas
 - Wizard of Id
 - Wrong Hands
 - Wumo
-- xkcd
 - Yodablog
+- ZAK
+- Une année au lycée
+- xkcd
