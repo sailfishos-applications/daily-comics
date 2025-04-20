@@ -1,7 +1,7 @@
 #!/bin/sh
 
 script_dir="$(dirname "$(readlink -e "$0")")"
-prefix_list="La |Le |Les |L['’]|El |Los |Las |Lo |Il |I |Gli |Una |Uno |Une |The |De |Het |Die |Der |Das "
+prefix_list="La |Le |Les |L'|L\’|El |Los |Las |Lo |Il |I |Gli |Un |Una |Uno |Une |The |De |Het |Die |Der |Das |Ein "
 # Retrieve the real names of the plugins,
 # order them ignoring some prefixes and
 # prepend a dash ("-") to each line:
