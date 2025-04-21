@@ -12,7 +12,7 @@ ls -1dQ "$script_dir"/../plugins/*/cover.jpg \
 eval montage "$(< /tmp/covers)" \
   -tile 10 \
   -geometry 100x100 \
-  '"$script_dir"/../info/comics_covers.jpg'
+  '"$script_dir"/../info/covers_grid.jpg'
 
 rm -f /tmp/covers
 
