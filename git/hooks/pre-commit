@@ -1,5 +1,10 @@
 #!/bin/sh
 
+# For some ideas how to idetify *similar* colours, see
+# https://github.com/sailfishos-applications/daily-comics/wiki/Identify-similar-colours
+
+# This script only detects exactly matching colours:
+
 duplicates="$(grep -Fh color plugins/*/info.json | cut -d: -f2 | sed -E '^[^"]*"(.*)".*$/\1/' | sort | uniq -d)"
 
 if [ -n "$duplicates"  ]

@@ -1,5 +1,5 @@
 function(page) {
-    var regex = /<meta property="og:image" content="([^"]*)"/
+    var regex = /"single":\{"url":"(https:[^"]+)/;
     var match = regex.exec(page);
-    return match[1].replace(/&amp;/g, '&');
+    return match[1];
 }

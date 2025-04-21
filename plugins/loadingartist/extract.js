@@ -1,6 +1,5 @@
 function(page) {
-    var regex = /<img[^>]+src="(\/comic[^"]+\\.jpg)"/;
+    var regex = /class=main-image-container.*<img[^>]+src=["']?(\/comic\/[^ "']+)/;
     var match = regex.exec(page);
-    return match[1];
-    // return "https://loadingartist.com" + match[1];
+    return "https://loadingartist.com" + match[1];
 }
