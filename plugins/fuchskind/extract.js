@@ -1,5 +1,5 @@
 function(page) {
-    var regex = /onclick="big\('([^']*)'/;
+    var regex = /<img[^>]*src="(galerie\/[^"]*)"/;
     var match = regex.exec(page);
     return match[1];
 }
