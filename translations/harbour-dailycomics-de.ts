@@ -53,22 +53,32 @@
 <context>
     <name>ComicInfoPanel</name>
     <message>
-        <location filename="../qml/components/ComicInfoPanel.qml" line="68"/>
+        <location filename="../qml/components/ComicInfoPanel.qml" line="63"/>
+        <source>Name</source>
+        <translation>Name</translation>
+    </message>
+    <message>
+        <location filename="../qml/components/ComicInfoPanel.qml" line="81"/>
         <source>Authors</source>
         <translation>Autoren</translation>
     </message>
     <message>
-        <location filename="../qml/components/ComicInfoPanel.qml" line="68"/>
+        <location filename="../qml/components/ComicInfoPanel.qml" line="81"/>
         <source>Author</source>
         <translation>Autor</translation>
     </message>
     <message>
-        <location filename="../qml/components/ComicInfoPanel.qml" line="85"/>
+        <location filename="../qml/components/ComicInfoPanel.qml" line="98"/>
         <source>Language</source>
         <translation>Sprache</translation>
     </message>
     <message>
-        <location filename="../qml/components/ComicInfoPanel.qml" line="124"/>
+        <location filename="../qml/components/ComicInfoPanel.qml" line="116"/>
+        <source>Example</source>
+        <translation>Beispiel</translation>
+    </message>
+    <message>
+        <location filename="../qml/components/ComicInfoPanel.qml" line="151"/>
         <source>Go to homepage</source>
         <translation>Webseite aufrufen</translation>
     </message>
