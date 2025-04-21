@@ -18,10 +18,7 @@
 
 const int Comic::_minFetchDelay = 1800; // 30 min
 const int Comic::_timeout = 30000; // 30 sec
-const QStringList Comic::_prefixes = QStringList() <<
-      "la " << "le " << "les " << "l'" << "l’" << "el " << "los " << "las " << "lo " <<
-      "il " << "i " << "gli " << "una " << "uno " << "une " <<
-      "the " << "de " << "het " << "die " << "der " << "das ";
+const QStringList Comic::_prefixes = QStringList() << "the" << "le" << "une";
 
 Comic::Comic(QString id, QObject *parent) :
     QObject(parent),
@@ -94,7 +91,7 @@ QString Comic::sortName() const
     QString prefix;
 
     for (int i = 0; i < _prefixes.size(); ++i) {
-        prefix = _prefixes.at(i);
+        prefix = _prefixes.at(i) + ' ';
         if (lowerName.startsWith(prefix))
             return lowerName.remove(0, prefix.size());
     }

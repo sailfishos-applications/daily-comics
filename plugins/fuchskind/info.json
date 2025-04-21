@@ -5,6 +5,6 @@
   "authors": [
     "Daniela Schreiter"
   ],
-  "homepage": "https://www.fuchskind.de/",
-  "stripSource": "https://www.fuchskind.de/?nav=galerie&lang=en"
+  "homepage": "http://www.fuchskind.de/",
+  "stripSource": "http://www.fuchskind.de/"
 }

@@ -1,10 +1,10 @@
 {
-  "name": "Gone with the Blastwave (GTWB)",
+  "name": "Gone With The Blastwave",
   "color": "ddab4c",
   "language": "en",
   "authors": [
-    "Kimmo Lemetti (Morriperkele / Morr)"
+    "Kimmo Lemetti"
   ],
-  "homepage": "https://www.blastwave-comic.com/",
-  "stripSource": "https://www.blastwave-comic.com/"
+  "homepage": "http://www.blastwave-comic.com",
+  "stripSource": "http://www.blastwave-comic.com/"
 }

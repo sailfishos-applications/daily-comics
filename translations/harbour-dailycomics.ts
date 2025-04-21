@@ -5,8 +5,8 @@
     <name>AboutPage</name>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="63"/>
-        <source>Read your favourite comic strips every day.</source>
-        <translation>Read your favourite comic strips every day.</translation>
+        <source>Your daily fix of your favorite comic strips</source>
+        <translation>Your daily fix of your favorite comic strips</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="79"/>
@@ -55,32 +55,22 @@
 <context>
     <name>ComicInfoPanel</name>
     <message>
-        <location filename="../qml/components/ComicInfoPanel.qml" line="63"/>
-        <source>Name</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/components/ComicInfoPanel.qml" line="81"/>
+        <location filename="../qml/components/ComicInfoPanel.qml" line="68"/>
         <source>Authors</source>
         <translation>Authors</translation>
     </message>
     <message>
-        <location filename="../qml/components/ComicInfoPanel.qml" line="81"/>
+        <location filename="../qml/components/ComicInfoPanel.qml" line="68"/>
         <source>Author</source>
         <translation>Author</translation>
     </message>
     <message>
-        <location filename="../qml/components/ComicInfoPanel.qml" line="98"/>
+        <location filename="../qml/components/ComicInfoPanel.qml" line="85"/>
         <source>Language</source>
         <translation>Language</translation>
     </message>
     <message>
-        <location filename="../qml/components/ComicInfoPanel.qml" line="116"/>
-        <source>Example</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/components/ComicInfoPanel.qml" line="151"/>
+        <location filename="../qml/components/ComicInfoPanel.qml" line="124"/>
         <source>Go to homepage</source>
         <translation>Go to homepage</translation>
     </message>
@@ -121,22 +111,22 @@
 <context>
     <name>ComicsSettingsPage</name>
     <message>
-        <location filename="../qml/pages/ComicsSettingsPage.qml" line="35"/>
+        <location filename="../qml/pages/ComicsSettingsPage.qml" line="34"/>
         <source>Save</source>
         <translation>Save</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ComicsSettingsPage.qml" line="36"/>
+        <location filename="../qml/pages/ComicsSettingsPage.qml" line="35"/>
         <source>Cancel</source>
         <translation>Cancel</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ComicsSettingsPage.qml" line="54"/>
+        <location filename="../qml/pages/ComicsSettingsPage.qml" line="53"/>
         <source>Clear all</source>
         <translation>Clear all</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ComicsSettingsPage.qml" line="60"/>
+        <location filename="../qml/pages/ComicsSettingsPage.qml" line="59"/>
         <source>Select all</source>
         <translation>Select all</translation>
     </message>

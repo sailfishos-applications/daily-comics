@@ -5,6 +5,6 @@
   "authors": [
     "Fabrice Erre"
   ],
-  "homepage": "https://uneanneeaulycee.blog.lemonde.fr/",
-  "stripSource": "https://uneanneeaulycee.blog.lemonde.fr/feed/"
+  "homepage": "http://uneanneeaulycee.blog.lemonde.fr/",
+  "stripSource": "http://uneanneeaulycee.blog.lemonde.fr/feed/"
 }
