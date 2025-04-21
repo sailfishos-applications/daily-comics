@@ -2,7 +2,7 @@
  * Copyright (c) 2015-2019 Damien Tardy-Panis <damien@tardypad.me>
  * Copyright (c) 2016 Hauke Schade <github@cnlpete.de>
  * Copyright (c) 2019 Oleg Linkin <maledictusdemagog@gmail.com>
- * Copyright (c) 2023 olf <Olf0@users.noreply.github.com>
+ * Copyright (c) 2023,2024 olf <Olf0@users.noreply.github.com>
  *
  * This file is subject to the terms and conditions defined in
  * file `LICENSE.txt`, which is part of this source code package.
@@ -60,7 +60,7 @@ Page {
                         horizontalCenter: parent.horizontalCenter
                     }
                     width: parent.width - Theme.horizontalPageMargin
-                    text: qsTr("Your daily fix of your favorite comic strips")
+                    text: qsTr("Read your favourite comic strips every day.")
                     font {
                         italic: true
                         pixelSize: Theme.fontSizeSmall
