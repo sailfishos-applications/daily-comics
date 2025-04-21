@@ -136,7 +136,7 @@ function(page) {
 - Denote in the git commit message which (re)source URLs were used for the cover and example strip.
 - Provide a higher resolution cover image ([1000x1000 px²](https://github.com/tardypad/sailfishos-daily-comics/pull/86#issuecomment-491614824)) in the comic's plugin folder with name `cover_big.jpg`.
 - For keeping "original graphic material" (i.e. not format-converted or scaled, but [freed of](#technical-1) author names, copyright notices, superfluous graphic elements etc.) for cover and example images, please commit such image files to [`.xdata/plugins/`](../.xdata/plugins), because of [issue \#65](https://github.com/sailfishos-applications/daily-comics/issues/65).
-- Regenerate [the covers grid](covers_grid.jpg) with the [`resources/generate-covers_grid.sh`](../resources/generate-covers_grid.sh) hell script.
+- Regenerate [the covers grid](covers_grid.jpg) with the [`resources/generate-covers_grid.sh`](../resources/generate-covers_grid.sh) shell script.
 - Regenerate [the comics list](comics_list.md) with the [`resources/generate-comics_list.sh`](../resources/generate-comics_list.sh) shell script.
 - If necessary, update the prefixes to ignore for sorting comic names [in the `Comic` class and in the `resources/generate-comics_list.sh` script](https://github.com/sailfishos-applications/daily-comics/pull/63/files).
 
