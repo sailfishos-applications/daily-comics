@@ -47,7 +47,8 @@ BuildRequires:  pkgconfig(sailfishapp) >= 0.0.10
 BuildRequires:  desktop-file-utils
 
 %description
-Read your favourite comic strips every day.
+Daily Comics is a simple to use comic strips and cartoon reader for SailfishOS,
+which allows for adding new comics / cartoons easily.
 
 %if 0%{?_chum}
 Title: Daily Comics
