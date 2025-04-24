@@ -5,9 +5,9 @@ title: "[Bug] "
 labels: 'bug'
 ---
 
-**SailfishOS VERSION** (Settings → About product → Build): **`<a.b.c.p>`**
-**HARDWARE** (Settings → About product → Manufacturer & Product name): **\<Manufacturer\>, \<Product name\>**
-**Daily Comics VERSION** (Daily Comics → [Top pulley] About): **`<x.y.z>`**
+- **SailfishOS VERSION** (Settings → About product → Build): **`<a.b.c.p>`**
+- **HARDWARE** (Settings → About product → Manufacturer & Product name): **\<Manufacturer\>, \<Product name\>**
+- **Daily Comics VERSION** (Daily Comics → [Top pulley] About): **`<x.y.z>`**
 
 #### BUG DESCRIPTION
 \<A comprehensive description of this bug.  Please do report only a single bug in each bug report!\>
