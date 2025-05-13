@@ -1,5 +1,5 @@
 function(page) {
-    var regex = /imageSrcSet="(http[^" ?]+)/;
+    var regex = /"url":"(https:\/\/featureassets.gocomics.com\/[^" ?]+)/;
     var match = regex.exec(page);
     return match[1];
 }
