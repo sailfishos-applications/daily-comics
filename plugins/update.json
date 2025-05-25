@@ -4,11 +4,6 @@
       "id":"buni",
       "stripSource":"https://www.bunicomic.com/",
       "extractJson":"function(page) {var regex = \/<div\s+id=\"comic\">\s+<img\s+src=\"([^? \"]+)\/; var match = regex.exec(page); return match[1];}"
-    },
-    {
-      "id":"mutts",
-      "stripSource":"https://mutts.com/",
-      "extractJson":"function(page) {var regex = /<div\s+class=\"the-daily-mutts-[^\"]+\">\s+<img\s+src=\"([^? \"]+)/; var match = regex.exec(page); return match[1];}"
     }
   ]
 }
