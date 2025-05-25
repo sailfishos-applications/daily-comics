@@ -1,5 +1,5 @@
 # Daily Comics
-**Daily Comics is an simple to use comic strips and cartoon reader for [SailfishOS](https://sailfishos.org/), which allows for adding new comics / cartoons easily.**
+**Daily Comics is a simple to use comic strips and cartoon reader for [SailfishOS](https://sailfishos.org/), which allows for adding new comics / cartoons easily.**
 
 ### Features
 - Select your favorite comics for quick access
