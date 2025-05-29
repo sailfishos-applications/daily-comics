@@ -18,7 +18,7 @@ plugins/
 ## Required information
 - List of authors (past / present, scenarist / cartoonist / etc.)
 - Homepage which provides more information about the comic
-- Comic main, representative colour (e.g. homepage colour, typical scenery colour, typical character colour)
+- A colour which must be the comic's cover image's background or border colour ([see below](#comic-cover)) and should be the comic's main, representative colour (e.g. homepage colour, typical scenery colour, typical character colour)
 - Language used in the comic strips
 - Source where to extract a link to the latest strip (e.g. RSS, API, URL)
 
