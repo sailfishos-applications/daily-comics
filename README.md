@@ -38,7 +38,7 @@ The [comics list](https://github.com/sailfishos-applications/daily-comics/blob/m
 Please file bug reports, feature suggestions and help requests in an [issue](https://github.com/sailfishos-applications/daily-comics/issues), after having ensured, that this is not already covered by an existing issue.
 
 ### Adding comics
-If you want some additional comics or cartoons to be supported by Daily Comics, please open a Pull Request and adhere to the [guidelines](./info/comic_addition.md).
+If you want some additional comics or cartoons to be supported by Daily Comics, please open a Pull Request which must adhere to the [guidelines](./info/comic_addition.md).
 
 ### Resources
 Some resources to find new comics
