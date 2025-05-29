@@ -47,7 +47,7 @@ The cover should be immediately recognisable when browsing the full list of comi
 
 ### Design
 - The cover image must be square (i.e. 1:1 aspect ratio).
-- Its border (at least at the full length of the top and right side of the cover image) must be single, a plain colour (i.e. no gradient etc., not black or white, but shades of grey are allowed etc.), which is recorded as aforementioned comic's own colour (in its `info.json`).  Each comic's own colour must be unique among all comics supported by Daily Comics, e.g. [look here](https://github.com/sailfishos-applications/daily-comics/blob/master/README.md#information).
+- Its border (at least at the full length of the top and right side of the cover image) must be single, plain colour (i.e. no gradient etc., also not black or white, but shades of grey are allowed etc.), which is recorded as aforementioned comic's own colour (in its `info.json`).  Each comic's own colour must be unique among all comics supported by Daily Comics, e.g. [look here](../README.md#information).
 - The comic's name or its logo should be displayed on the center top of the cover image.
 - The foreground should contain the main character(s).
 
