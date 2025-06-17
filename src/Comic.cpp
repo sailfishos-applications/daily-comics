@@ -20,8 +20,8 @@ const int Comic::_minFetchDelay = 1800; // 30 min
 const int Comic::_timeout = 30000; // 30 sec
 const QStringList Comic::_prefixes = QStringList() <<
       "la " << "le " << "les " << "l'" << "l’" << "el " << "los " << "las " << "lo " <<
-      "il " << "i " << "gli " << "una " << "uno " << "une " <<
-      "the " << "de " << "het " << "die " << "der " << "das ";
+      "il " << "i " << "gli " << "una " << "uno " << "une " << "the " <<
+      "de " << "het " << "die " << "der " << "das " << "ein ";
 
 Comic::Comic(QString id, QObject *parent) :
     QObject(parent),
