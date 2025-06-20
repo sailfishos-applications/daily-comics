@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 2015 Damien Tardy-Panis <damien@tardypad.me>
- * Copyright (c) 2018-2019 Oleg Linkin <maledictusdemagog@gmail.com>
- * Copyright (c) 2023 olf <Olf0@users.noreply.github.com>
+ * Copyright (c) 2018,2019 Oleg Linkin <maledictusdemagog@gmail.com>
+ * Copyright (c) 2023,2024 olf <Olf0@users.noreply.github.com>
  *
  * This file is subject to the terms and conditions defined in
  * file `LICENSE.txt`, which is part of this source code package.
@@ -35,25 +35,89 @@ Page {
 
     SilicaFlickable {
         anchors.fill: parent
-        contentHeight: column.height
+        contentHeight: pageHeader.height + infoColumn.height + Theme.verticalPageMargin
 
+        PageHeader {
+            id: pageHeader
+            title: qsTr("Comic info")
+        }
+
+        // The content of this Column {} is very similar to the one in qml/components/ComicInfoPage.qml:
+        // One may consider to unify them as an own component, but that likely would have to be parametrised.
         Column {
-            id: column
+            id: infoColumn
+            spacing: Theme.paddingMedium
+            anchors.centerIn: parent
+            width: parent.width - Theme.horizontalPageMargin
 
-            width: parent.width
+            Grid {
+                columns: 2
+                spacing: Theme.paddingMedium
 
-            PageHeader {
-                title: qsTr("Comic info")
+                Label {
+                    id: nameHeaderLabel
+                    text: qsTr("Name") + " "
+                    font {
+                        italic: true
+                        pixelSize: Theme.fontSizeMedium
+                    }
+                    color: Theme.secondaryColor
+                }
+
+                Label {
+                    id: nameLabel
+                    text: comic.name
+                    width: parent.width
+                    font.pixelSize: Theme.fontSizeMedium
+                    truncationMode: TruncationMode.Fade
+                }
+
+                Label {
+                    id: authorsHeaderLabel
+                    text: comic.authors.length > 1 ? qsTr("Authors")  + " " : qsTr("Author") + " "
+                    font {
+                        italic: true
+                        pixelSize: Theme.fontSizeMedium
+                    }
+                    color: Theme.secondaryColor
+                }
+
+                Label {
+                    id: authorsLabel
+                    text: comic.authors.join("\n")
+                    font.pixelSize: Theme.fontSizeMedium
+                    truncationMode: TruncationMode.Fade
+                }
+
+                Label {
+                    id: languageHeaderLabel
+                    text: qsTr("Language") + " "
+                    font {
+                        italic: true
+                        pixelSize: Theme.fontSizeMedium
+                    }
+                    color: Theme.secondaryColor
+                }
+
+                Label {
+                    id: languageLabel
+                    text: comic.language
+                    font.pixelSize: Theme.fontSizeMedium
+                    truncationMode: TruncationMode.Fade
+                }
             }
-            DetailItem {
-                id: authorsHeaderLabel
-                label: comic.authors.length > 1 ? qsTr("Authors") : qsTr("Author")
-                value: comic.authors.join("\n")
-            }
-            DetailItem {
-                id: languageHeaderLabel
-                label: qsTr("Language")
-                value: comic.language
+
+            Label {
+                id: exampleImageHeaderLabel
+                text: qsTr("Example")
+                font {
+                    italic: true
+                    pixelSize: Theme.fontSizeMedium
+                }
+                color: Theme.secondaryColor
+                width: parent.width
+                horizontalAlignment: Text.AlignHCenter
+                anchors.horizontalCenter: parent.horizontalCenter
             }
 
             Image {
@@ -63,9 +127,20 @@ Page {
                 smooth: true
                 asynchronous: true
 
+                width: parent.width
+
                 anchors.horizontalCenter: parent.horizontalCenter
             }
         }
         VerticalScrollDecorator { }
+    }
+
+    PullDownMenu {
+        id: homepagePullDownMenu
+
+        MenuItem {
+            text: qsTr("Go to homepage")
+            onClicked: Qt.openUrlExternally(comic.homepage)
+        }
     }
 }
