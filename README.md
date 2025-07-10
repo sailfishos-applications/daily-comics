@@ -38,7 +38,7 @@ The [comics list](https://github.com/sailfishos-applications/daily-comics/blob/m
 Please file bug reports, feature suggestions and help requests in an [issue](https://github.com/sailfishos-applications/daily-comics/issues), after having ensured, that this is not already covered by an existing issue.
 
 ### Adding comics
-If you want some additional comics or cartoons to be supported by Daily Comics, please open a Pull Request and adhere to the [guidelines](./info/comic_addition.md).
+If you want some additional comics or cartoons to be supported by Daily Comics, please open a Pull Request which must adhere to the [guidelines](./info/comic_addition.md).
 
 ### Resources
 Some resources to find new comics
@@ -55,37 +55,39 @@ If you want to translate Daily Comics to a language it does not support yet or i
 
 ## Contributors
 ### Source Code
-- [2015-2019](https://github.com/sailfishos-applications/daily-comics/commits?author=tardypad) Damien Tardy-Panis ([tardypad](https://github.com/tardypad))
-- [2016,2019,2024](https://github.com/sailfishos-applications/daily-comics/commits?author=cnlpete) Hauke Schade ([cnlpete](https://github.com/cnlpete))
-- [2018-2020](https://github.com/sailfishos-applications/daily-comics/commits?author=Maledictus) Oleg Linkin ([Maledictus](https://github.com/Maledictus))
-- [2020](https://github.com/sailfishos-applications/daily-comics/commits?author=ichthyosaurus) Mirian Margiani ([ichthyosaurus](https://github.com/ichthyosaurus))
-- [2023,2024](https://github.com/sailfishos-applications/daily-comics/commits?author=Olf0) olf ([Olf0](https://github.com/Olf0))
+- [2015-2019](https://github.com/sailfishos-applications/daily-comics/commits?author=tardypad): Damien Tardy-Panis ([tardypad](https://github.com/tardypad))
+- [2016,2019,2024](https://github.com/sailfishos-applications/daily-comics/commits?author=cnlpete): Hauke Schade ([cnlpete](https://github.com/cnlpete))
+- [2018-2020](https://github.com/sailfishos-applications/daily-comics/commits?author=Maledictus): Oleg Linkin ([Maledictus](https://github.com/Maledictus))
+- [2020](https://github.com/sailfishos-applications/daily-comics/commits?author=ichthyosaurus): Mirian Margiani ([ichthyosaurus](https://github.com/ichthyosaurus))
+- [2023,2024](https://github.com/sailfishos-applications/daily-comics/commits?author=Olf0): olf ([Olf0](https://github.com/Olf0))
 
 ### Plugins
-- [2015-2019](https://github.com/sailfishos-applications/daily-comics/commits?author=tardypad) Damien Tardy-Panis ([tardypad](https://github.com/tardypad))
-- [2018](https://github.com/sailfishos-applications/daily-comics/commits?author=f03el) Erik Mållberg ([f03el](https://github.com/f03el))
-- [2018-2020](https://github.com/sailfishos-applications/daily-comics/commits?author=Maledictus) Oleg Linkin ([Maledictus](https://github.com/Maledictus))
-- [2019,2020](https://github.com/sailfishos-applications/daily-comics/commits?author=cow-n-berg) Rob K ([cow-n-berg](https://github.com/cow-n-berg))
-- [2019](https://github.com/sailfishos-applications/daily-comics/commits?author=caio2k) caio2k ([caio2k](https://github.com/caio2k))
-- [2019](https://github.com/sailfishos-applications/daily-comics/commits?author=sthocs) sthocs ([sthocs](https://github.com/sthocs))
-- [2019](https://github.com/sailfishos-applications/daily-comics/commit/f28be7cf1d112f9e48bf853ad032f8f6f9a622c8) dryo
-- [2020](https://github.com/sailfishos-applications/daily-comics/commit/47a83f15c3c43ac189cd31ea327e98cad19addb3) Joni Korhonen
-- [2020,2023-2025](https://github.com/sailfishos-applications/daily-comics/commits?author=Olf0) olf ([Olf0](https://github.com/Olf0))
-- [2024,2025](https://github.com/sailfishos-applications/daily-comics/commits?author=ExTechOp) Otto ([ExTechOp](https://github.com/ExTechOp))
-- [2025](https://github.com/sailfishos-applications/daily-comics/commits?author=f-fr) Frank Fischer ([f-fr](https://github.com/f-fr))
+- [2015-2019](https://github.com/sailfishos-applications/daily-comics/commits?author=tardypad): Damien Tardy-Panis ([tardypad](https://github.com/tardypad))
+- [2018](https://github.com/sailfishos-applications/daily-comics/commits?author=f03el): Erik Mållberg ([f03el](https://github.com/f03el))
+- [2018-2020](https://github.com/sailfishos-applications/daily-comics/commits?author=Maledictus): Oleg Linkin ([Maledictus](https://github.com/Maledictus))
+- [2019,2020](https://github.com/sailfishos-applications/daily-comics/commits?author=cow-n-berg): Rob K ([cow-n-berg](https://github.com/cow-n-berg))
+- [2019](https://github.com/sailfishos-applications/daily-comics/commits?author=caio2k): caio2k ([caio2k](https://github.com/caio2k))
+- [2019](https://github.com/sailfishos-applications/daily-comics/commits?author=sthocs): sthocs ([sthocs](https://github.com/sthocs))
+- [2019](https://github.com/sailfishos-applications/daily-comics/commit/f28be7cf1d112f9e48bf853ad032f8f6f9a622c8): dryo
+- [2020](https://github.com/sailfishos-applications/daily-comics/commit/47a83f15c3c43ac189cd31ea327e98cad19addb3): Joni Korhonen
+- [2020,2023-2025](https://github.com/sailfishos-applications/daily-comics/commits?author=Olf0): olf ([Olf0](https://github.com/Olf0))
+- [2024,2025](https://github.com/sailfishos-applications/daily-comics/commits?author=ExTechOp): Otto ([ExTechOp](https://github.com/ExTechOp))
+- [2025](https://github.com/sailfishos-applications/daily-comics/commits?author=f-fr): Frank Fischer ([f-fr](https://github.com/f-fr))
 
 ### Translations
 - [`de`](https://app.transifex.com/olf/daily-comics/language/de/)
-  - [2016,2019](https://github.com/sailfishos-applications/daily-comics/commits?author=cnlpete),[2024](https://github.com/sailfishos-applications/daily-comics/commits?author=transifex-integration%5Bbot%5D) Hauke Schade ([cnlpete](https://github.com/cnlpete))
-  - [2020](https://github.com/sailfishos-applications/daily-comics/commits?author=ichthyosaurus) Mirian Margiani ([ichthyosaurus](https://github.com/ichthyosaurus))
-  - [2023](https://github.com/sailfishos-applications/daily-comics/commits?author=Olf0) [olf](https://github.com/sailfishos-applications/daily-comics/commits?author=transifex-integration%5Bbot%5D) ([Olf0](https://github.com/Olf0))
+  - [2016,2019](https://github.com/sailfishos-applications/daily-comics/commits?author=cnlpete),[2024](https://github.com/sailfishos-applications/daily-comics/commits?author=transifex-integration%5Bbot%5D): Hauke Schade ([cnlpete](https://github.com/cnlpete))
+  - [2020](https://github.com/sailfishos-applications/daily-comics/commits?author=ichthyosaurus): Mirian Margiani ([ichthyosaurus](https://github.com/ichthyosaurus))
+  - [2023](https://github.com/sailfishos-applications/daily-comics/commits?author=Olf0): [olf](https://github.com/sailfishos-applications/daily-comics/commits?author=transifex-integration%5Bbot%5D) ([Olf0](https://github.com/Olf0))
 - [`fr`](https://app.transifex.com/olf/daily-comics/language/fr/)
-  - [2018,2019](https://github.com/sailfishos-applications/daily-comics/commits?author=lutinotmalin) [lutinotmalin](https://github.com/lutinotmalin)
+  - [2018,2019](https://github.com/sailfishos-applications/daily-comics/commits?author=lutinotmalin): [lutinotmalin](https://github.com/lutinotmalin)
+- [`it`](https://app.transifex.com/olf/daily-comics/language/it/)
+  - [2025](https://github.com/sailfishos-applications/daily-comics/commits?author=legacychimera247): luca 247 ([legacychimera247](https://github.com/legacychimera247))
 - [`nl`](https://app.transifex.com/olf/daily-comics/language/nl/)
-  - [2017](https://github.com/tardypad/sailfishos-daily-comics/pull/35) *\<Unknown\>*
+  - [2017](https://github.com/tardypad/sailfishos-daily-comics/pull/35): *\<Unknown\>*
 - [`sv`](https://app.transifex.com/olf/daily-comics/language/sv/)
-  - [2018](https://github.com/sailfishos-applications/daily-comics/commit/dfd23fb435a846fe5776a440669d92fe2eb5c39d) Erik Lundin
-  - [2024](https://github.com/sailfishos-applications/daily-comics/commits?author=transifex-integration%5Bbot%5D) Åke Engelbrektson (eson / [eson57](https://github.com/eson57))
+  - [2018](https://github.com/sailfishos-applications/daily-comics/commit/dfd23fb435a846fe5776a440669d92fe2eb5c39d): Erik Lundin
+  - [2024](https://github.com/sailfishos-applications/daily-comics/commits?author=transifex-integration%5Bbot%5D): Åke Engelbrektson (eson / [eson57](https://github.com/eson57))
 
 ## Licenses
 The source code of Daily Comics (i.e. all code in this source code repository) is released under the classic MIT license (see the [LICENSE](./LICENSE.txt) file).
