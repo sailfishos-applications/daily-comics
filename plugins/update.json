@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    {
+      "id":"fokkeensukke",
+      "stripSource":"https://www.nrc.nl/fokke-sukke",
+      "extractJson":"function(page) {var regex = /\s+src=\"([^\"]+\/images.nrc.nl\/[^\"]+)\"/; var match = regex.exec(page); return match[1]; }"
+    }
+  ]
+}
