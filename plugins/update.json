@@ -1,9 +1,1 @@
-{
-  "plugins": [
-    {
-      "id":"fokkeensukke",
-      "stripSource":"https://www.nrc.nl/fokke-sukke",
-      "extractJson":"function(page) {var regex = /.*/; var match = regex.exec(page); return match[1]; }"
-    }
-  ]
-}
+// This is `update.json`: https://github.com/sailfishos-applications/daily-comics/tree/devel/plugins/update.json
