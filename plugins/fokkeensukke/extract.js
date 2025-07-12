@@ -1,5 +1,5 @@
 function(page) {
-    var regex = /<source[^>]+srcset="\s*(\S+)/;
+    var regex = /\ssrc="([^"]+\/images.nrc.nl\/[^"\s]+)/;
     var match = regex.exec(page);
     return match[1];
 }
