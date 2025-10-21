@@ -6,5 +6,7 @@
     "Pertti Jarla"
   ],
   "homepage": "http://fingerpori.org",
-  "stripSource": "https://www.hs.fi/fingerpori/"
+    // To find the API url go: https://www.hs.fi/sarjakuvat/fingerpori/
+    // web developer tools, network / all, search for laneitems, copy url
+  "stripSource": "https://www.hs.fi/api/laneitems/39221/list/normal/290"
 }

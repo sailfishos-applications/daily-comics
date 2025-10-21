@@ -7,5 +7,7 @@
       "Jyrki Vainio"
   ],
   "homepage": "https://www.hs.fi/sarjakuvat/keskenkasvuisia/",
-  "stripSource": "https://www.hs.fi/sarjakuvat/keskenkasvuisia/"
+    // To find the API url go: https://www.hs.fi/sarjakuvat/keskenkasvuisia/
+    // web developer tools, network / all, search for laneitems, copy url
+  "stripSource": "https://www.hs.fi/api/laneitems/39221/list/normal/2462"
 }
