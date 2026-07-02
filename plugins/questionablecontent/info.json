@@ -5,6 +5,6 @@
   "authors": [
     "Jeph Jacques"
   ],
-  "homepage": "http://questionablecontent.net/",
-  "stripSource": "http://www.questionablecontent.net/QCRSS.xml"
+  "homepage": "https://questionablecontent.net/",
+  "stripSource": "https://www.questionablecontent.net/QCRSS.xml"
 }
