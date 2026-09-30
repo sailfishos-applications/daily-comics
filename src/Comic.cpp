@@ -121,7 +121,14 @@ void Comic::fetchStripSource(QUrl stripSrcUrl)
 
     QUrl requestUrl = !stripSrcUrl.isEmpty() ? stripSrcUrl : stripSourceUrl();
     QNetworkRequest request(requestUrl);
-    if (requestUrl.toString().contains(".tumblr.com")) {
+    const QString requestHost = requestUrl.host();
+    if (requestHost == "gocomics.com" || requestHost.endsWith(".gocomics.com")) {
+        request.setHeader(QNetworkRequest::UserAgentHeader, "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36");
+        request.setRawHeader("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8");
+        request.setRawHeader("Accept-Language", "en-US,en;q=0.9");
+        request.setRawHeader("Referer", "https://www.gocomics.com/");
+        request.setRawHeader("Upgrade-Insecure-Requests", "1");
+    } else if (requestUrl.toString().contains(".tumblr.com")) {
         request.setHeader(QNetworkRequest::UserAgentHeader, "curl");
     } else {
         request.setHeader(QNetworkRequest::UserAgentHeader, "sailfishos/tardypad/dailycomics");
